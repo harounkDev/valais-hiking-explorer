@@ -1,0 +1,52 @@
+html {
+  scroll-behavior: smooth;
+}
+input:focus {
+  outline: none;
+  border: none;
+  padding: 4px 10px;
+  background-color: bisque;
+}
+
+.container {
+  margin: 10ox auto;
+
+  background-color: #ccc;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.heading {
+  margin: 10px auto;
+  width: fit-content;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar a {
+  color: black;
+  padding: 7px;
+}
+.navbar a:hover {
+  background-color: blue;
+  transition: 0.3s;
+  padding: 10px;
+  color: aqua;
+  border-radius: 8px;
+}
+input {
+  margin: 10px;
+}
+form {
+  margin-top: 10px;
+  width: 200px;
+}
+table {
+  margin-top: 10px;
+  border: solid 1px black;
+}
