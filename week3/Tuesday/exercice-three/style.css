@@ -1,0 +1,62 @@
+/* Global rules */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* End global rules */
+html {
+  background: lightgray;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+  color: black;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #d2e7f2;
+  padding: 2em;
+}
+figure,
+main {
+  display: none;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+}
+article {
+  position: fixed;
+  width: 20px;
+  height: 3px;
+  background-color: blue;
+  right: 0;
+  margin: 20px;
+  cursor: pointer;
+}
+article::before,
+article::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: blue;
+  right: 0;
+}
+article::before {
+  bottom: 10px;
+}
+article::after {
+  top: 10px;
+}
+
+@media (max-width: 768px) {
+}
