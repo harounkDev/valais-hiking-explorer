@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  /*scroll-behavior: smooth;*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+h1 {
+  width: fit-content;
+  margin: 10px auto;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+}
+
+main ul {
+  justify-content: flex-start;
+  gap: 0;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+main li {
+  background: red;
+  color: white;
+  display: grid;
+  flex-shrink: 0;
+  font-size: 3rem;
+  height: 50vh;
+  place-items: center;
+  width: 100vw;
+}
+
+main li:first-of-type {
+  background: blue;
+}
+
+main li:last-of-type {
+  background: green;
+}
+
+#slide1:target ~ ul {
+  transform: translateX(0);
+}
+
+#slide2:target ~ ul {
+  transform: translateX(-100%);
+}
+
+#slide3:target ~ ul {
+  transform: translateX(-200%);
+}
+
+.test {
+  padding: 3em 10em;
+  margin: 1em auto;
+  border: 1px solid black;
+  border-radius: 7px;
+  display: block;
+  width: fit-content;
+  color: #03a9f4;
+  border-color: #03a9f4;
+  font-size: large;
+
+  background: linear-gradient(to right, #03a9f4 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: 1s;
+}
+.test:hover {
+  background-position: left bottom;
+  color: white;
+}

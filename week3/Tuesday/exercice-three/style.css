@@ -13,26 +13,31 @@ html {
   text-align: center;
   margin: 0;
 }
+body {
+  margin: 0;
+  display: flex;
+}
 
 a {
   text-decoration: none;
   font-size: large;
   color: black;
 }
-ul {
+.row-menu,
+.colum-menu {
   display: flex;
   justify-content: space-evenly;
   background-color: #d2e7f2;
   padding: 2em;
 }
-figure,
-main {
+
+.row-menu {
   display: none;
 }
-figure {
-  display: flex;
-  flex-direction: column;
+.colum-menu {
+  display: none;
 }
+
 article {
   position: fixed;
   width: 20px;
@@ -57,6 +62,11 @@ article::before {
 article::after {
   top: 10px;
 }
-
+.colum-menu {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  align-self: flex-end;
+}
 @media (max-width: 768px) {
 }
