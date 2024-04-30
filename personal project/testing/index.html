@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiss Hiking Trails Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Swiss Hiking Trails Explorer</h1>
+    </header>
+    <div id="filter-section">
+      <h2>Filter Trails</h2>
+      <label for="difficulty">Difficulty:</label>
+      <select id="difficulty">
+        <option value="any">Any</option>
+        <option value="easy">Easy</option>
+        <option value="moderate">Moderate</option>
+        <option value="difficult">Difficult</option>
+      </select>
+      <label for="distance">Distance (km):</label>
+      <input type="range" id="distance" min="0" max="20" />
+      <span id="distance-value">0 km</span>
+      <label for="length">Length (hours):</label>
+      <input type="range" id="length" min="0" max="10" />
+      <span id="length-value">0 hours</span>
+      <label for="attractions">Attractions:</label>
+      <div id="attractions-list">
+        <label><input type="checkbox" value="Waterfall" /> Waterfall</label>
+        <label><input type="checkbox" value="Lake" /> Lake</label>
+        <label
+          ><input type="checkbox" value="Mountain View" /> Mountain View</label
+        >
+        <input type="checkbox" value="Alpine Flowers" /> Alpine
+          Flowers</label
+        >
+        <label><input type="checkbox" value="Glacier" /> Glacier</label>
+      </div>
+      <button onclick="filterTrails()">Apply Filters</button>
+    </div>
+    <div id="trail-list">
+      <!-- Display filtered trails here -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
