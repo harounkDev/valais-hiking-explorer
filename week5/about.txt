@@ -1,0 +1,5 @@
+
+ * 1. login data will be submitted
+ * 2. validate the password - check if the user exists (user "database" in JS)
+ * 3. view for user is changing: e.g. logout or for "wrong password" message
+
