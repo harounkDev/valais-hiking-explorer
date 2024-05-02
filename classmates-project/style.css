@@ -16,23 +16,31 @@
     padding: 2em;
     border-radius: 7px;
     cursor: pointer;
+    overflow: hidden;
 
 
-  }  img{
+  } 
+ 
+
+   img{
     max-width: 250px;
     border-radius: 7px;
+    
 
 
   }
   article:hover img{
     filter: grayscale();
-    transition: 0.5s;
-    /* filter: drop-shadow(2px 4px 6px black); */
-    display: none;
-    /* visibility: hidden; */
+    position:absolute;
+    transform: rotateY(140deg);
+    backface-visibility:hidden;
+    transition:all 1s linear;
+    overflow: hidden;
   }
  article:hover p{
     display: block;
+  
+    
  }
   ul{
     display: flex;
@@ -49,6 +57,7 @@
   }
   p{
     display: none;
+    font-style: italic;
   }
   button{
     padding: 1em 2em;
