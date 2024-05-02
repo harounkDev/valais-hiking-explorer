@@ -1,0 +1,64 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  main{
+     display:grid ;
+     gap:10px ;
+     grid-template-columns: repeat(auto-fill,  minmax(300px, 1fr)); 
+     background-color:#ececec"
+  }
+  h1{
+    width: fit-content;
+    margin: 2em auto;
+  }
+  article{
+    padding: 2em;
+    border-radius: 7px;
+    cursor: pointer;
+
+
+  }  img{
+    max-width: 250px;
+    border-radius: 7px;
+
+
+  }
+  article:hover img{
+    filter: grayscale();
+    transition: 0.5s;
+    /* filter: drop-shadow(2px 4px 6px black); */
+    display: none;
+    /* visibility: hidden; */
+  }
+ article:hover p{
+    display: block;
+ }
+  ul{
+    display: flex;
+    align-items: center;
+  }
+  li{
+    list-style: none;
+    
+  }
+  a{
+    text-decoration: none;
+    margin-right: 7px;
+    padding: 7px
+  }
+  p{
+    display: none;
+  }
+  button{
+    padding: 1em 2em;
+    border: none;
+    border-radius: 1.5em;
+    margin: 1em;
+    color: cornflowerblue;
+    font-size: large;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: bisque;
+  }
