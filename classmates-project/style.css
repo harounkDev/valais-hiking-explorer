@@ -13,12 +13,12 @@
     margin: 2em auto;
   }
   article{
-    padding: 2em;
+    padding: 1em;
     border-radius: 7px;
     cursor: pointer;
     overflow: hidden;
-
-
+    /* text-align: center; */
+    overflow: hidden;
   } 
  
 
@@ -30,12 +30,11 @@
 
   }
   article:hover img{
-    filter: grayscale();
-    position:absolute;
-    transform: rotateY(140deg);
+    transform:rotateY(180deg);
     backface-visibility:hidden;
-    transition:all 1s linear;
-    overflow: hidden;
+    transition:all .7s linear;
+    position: absolute;
+  
   }
  article:hover p{
     display: block;
