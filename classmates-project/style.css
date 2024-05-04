@@ -1,72 +1,70 @@
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-  main{
-     display:grid ;
-     gap:10px ;
-     grid-template-columns: repeat(auto-fill,  minmax(300px, 1fr)); 
-     background-color:#ececec"
-  }
-  h1{
-    width: fit-content;
-    margin: 2em auto;
-  }
-  article{
-    padding: 1em;
-    border-radius: 7px;
-    cursor: pointer;
-    overflow: hidden;
-    /* text-align: center; */
-    overflow: hidden;
-  } 
- 
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 
-   img{
-    max-width: 250px;
-    border-radius: 7px;
-    
+  background-color: #ececec;
+  padding: 1em;
+  gap: 2em;
+  flex: 1;
+}
+h1 {
+  width: fit-content;
+  margin: 2em auto;
+}
+article {
+  border-radius: 7px;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 2em;
+  min-height: 450px;
+}
 
+img {
+  max-width: 250px;
+  border-radius: 7px;
+}
+article:hover img {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  transition: all 0.7s linear;
+  position: absolute;
+}
+article:hover p {
+  display: block;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
 
-  }
-  article:hover img{
-    transform:rotateY(180deg);
-    backface-visibility:hidden;
-    transition:all .7s linear;
-    position: absolute;
-  
-  }
- article:hover p{
-    display: block;
-  
-    
- }
-  ul{
-    display: flex;
-    align-items: center;
-  }
-  li{
-    list-style: none;
-    
-  }
-  a{
-    text-decoration: none;
-    margin-right: 7px;
-    padding: 7px
-  }
-  p{
-    display: none;
-    font-style: italic;
-  }
-  button{
-    padding: 1em 2em;
-    border: none;
-    border-radius: 1.5em;
-    margin: 1em;
-    color: cornflowerblue;
-    font-size: large;
-    cursor: pointer;
-  }
-  button:hover{
-    background-color: bisque;
-  }
+p {
+  display: none;
+  font-style: italic;
+}
+button {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 1.5em;
+  margin: 1em;
+  color: cornflowerblue;
+  font-size: large;
+  cursor: pointer;
+}
+button:hover {
+  background-color: bisque;
+}
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}

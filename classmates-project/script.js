@@ -1,272 +1,31 @@
-let persons = [
-  {
-    id: 1,
-    name: "Alona",
-    img: "./images/Alona-1.jpg",
-    country: "Ukraine",
-    it: "Web Development",
-    age: 23,
-    gender: "Female",
-  },
-  {
-    id: 2,
-    name: "Kateryna",
-    img: "./images/Kateryna-1.jpg",
-    country: "Germany",
-    it: "Data Analyst",
-    age: 29,
-    gender: "Female",
-  },
-  {
-    id: 3,
-    name: "Sediq",
-    img: "./images/Sediq-1.jpg",
-    country: "Canada",
-    it: "Software Engineering",
-    age: 31,
-    gender: "Male",
-  },
-  {
-    id: 4,
-    name: "Ana",
-    img: "./images/Ana-1.jpg",
-    country: "France",
-    it: "Web Development",
-    age: 26,
-    gender: "Female",
-  },
-  {
-    id: 5,
-    name: "Khalid",
-    img: "./images/Khalid-1.jpg",
-    country: "USA",
-    it: "Data Analyst",
-    age: 35,
-    gender: "Male",
-  },
-  {
-    id: 6,
-    name: "Shakir",
-    img: "./images/Shakir-1.jpg",
-    country: "Australia",
-    it: "Data Science",
-    age: 30,
-    gender: "Male",
-  },
-  {
-    id: 7,
-    name: "Burak",
-    img: "./images/Burak-1.jpg",
-    country: "Turkey",
-    it: "Web Development",
-    age: 27,
-    gender: "Male",
-  },
-  {
-    id: 8,
-    name: "Lu",
-    img: "./images/Lu-1.jpg",
-    country: "Japan",
-    it: "Software Engineering",
-    age: 28,
-    gender: "Female",
-  },
-  {
-    id: 9,
-    name: "Stan",
-    img: "./images/Stan-1.jpg",
-    country: "Italy",
-    it: "Data Analyst",
-    age: 32,
-    gender: "Male",
-  },
-  {
-    id: 10,
-    name: "Enes",
-    img: "./images/Enes-1.jpg",
-    country: "Germany",
-    it: "Data Science",
-    age: 29,
-    gender: "Male",
-  },
-  {
-    id: 11,
-    name: "Maksym",
-    img: "./images/Maksym-1.jpg",
-    country: "Netherlands",
-    it: "Web Development",
-    age: 26,
-    gender: "Male",
-  },
-  {
-    id: 12,
-    name: "Taha",
-    img: "./images/Taha-1.jpg",
-    country: "Russia",
-    it: "Data Analyst",
-    age: 34,
-    gender: "Male",
-  },
-  {
-    id: 13,
-    name: "Fevzi",
-    img: "./images/Fevzi-1.jpg",
-    country: "Brazil",
-    it: "Web Development",
-    age: 31,
-    gender: "Male",
-  },
-  {
-    id: 14,
-    name: "Mariia",
-    img: "./images/Mariia-1.jpg",
-    country: "China",
-    it: "Software Engineering",
-    age: 27,
-    gender: "Female",
-  },
-  {
-    id: 15,
-    name: "Tsering",
-    img: "./images/Tsering-1.jpg",
-    country: "India",
-    it: "Data Science",
-    age: 33,
-    gender: "Male",
-  },
-  {
-    id: 16,
-    name: "Frank",
-    img: "./images/Frank-1.jpg",
-    country: "South Africa",
-    it: "Data Analyst",
-    age: 28,
-    gender: "Male",
-  },
-  {
-    id: 17,
-    name: "Nizami",
-    img: "./images/Nizami-1.jpg",
-    country: "Argentina",
-    it: "Web Development",
-    age: 30,
-    gender: "Male",
-  },
-  {
-    id: 18,
-    name: "Tugba",
-    img: "./images/Tugba-1.jpg",
-    country: "Mexico",
-    it: "Data Science",
-    age: 25,
-    gender: "Female",
-  },
-  {
-    id: 19,
-    name: "Giang",
-    img: "./images/Giang-1.jpg",
-    country: "Thailand",
-    it: "Web Development",
-    age: 29,
-    gender: "Female",
-  },
-  {
-    id: 20,
-    name: "Oleksii",
-    img: "./images/Oleksii-1.jpg",
-    country: "United Arab Emirates",
-    it: "Data Analyst",
-    age: 32,
-    gender: "Male",
-  },
-  {
-    id: 21,
-    name: "Violetta",
-    img: "./images/Violetta-1.jpg",
-    country: "Greece",
-    it: "Data Science",
-    age: 28,
-    gender: "Female",
-  },
-  {
-    id: 22,
-    name: "Haroun",
-    img: "./images/Haroun-1.jpg",
-    country: "Algeria",
-    it: "Web Development",
-    age: 31,
-    gender: "Male",
-  },
-  {
-    id: 23,
-    name: "Olena",
-    img: "./images/Olena-1.jpg",
-    country: "Switzerland",
-    it: "Software Engineering",
-    age: 27,
-    gender: "Female",
-  },
-  {
-    id: 24,
-    name: "Vlad",
-    img: "./images/Vlad-1.jpg",
-    country: "Belgium",
-    it: "Data Analyst",
-    age: 30,
-    gender: "Male",
-  },
-  {
-    id: 25,
-    name: "Juan",
-    img: "./images/Juan-1.jpg",
-    country: "Sweden",
-    it: "Web Development",
-    age: 28,
-    gender: "Male",
-  },
-  {
-    id: 26,
-    name: "Kashif",
-    img: "./images/Kashif-1.jpg",
-    country: "Norway",
-    it: "Data Science",
-    age: 29,
-    gender: "Male",
-  },
-  {
-    id: 27,
-    name: "Olesia",
-    img: "./images/Olesia-1.jpg",
-    country: "Denmark",
-    it: "Web Development",
-    age: 26,
-    gender: "Female",
-  },
-  {
-    id: 28,
-    name: "Olha",
-    img: "./images/Olha-5.jpg",
-    country: "Finland",
-    it: "Software Engineering",
-    age: 33,
-    gender: "Female",
-  },
-  {
-    id: 29,
-    name: "Yuri",
-    img: "./images/Yuri-1.jpg",
-    country: "Ireland",
-    it: "Data Analyst",
-    age: 30,
-    gender: "Male",
-  },
-];
+let persons;
 
-let maleList = persons.filter((person) => person.gender === "Male");
+fetch("persons.json")
+  .then((response) => response.json())
+  .then((data) => {
+    persons = data;
 
-let femaleList = persons.filter((person) => person.gender === "Female");
+    const maleList = persons.filter((person) => person.gender === "Male");
+    const femaleList = persons.filter((person) => person.gender === "Female");
+    const otherList = persons.filter(
+      (person) => person.gender !== "Male" && person.gender !== "Female"
+    );
 
-let otherList = persons.filter((person) => person.gender === "Other");
+    buildPage(persons);
+
+    document
+      .getElementById("maleButton")
+      .addEventListener("click", () => buildPage(maleList));
+    document
+      .getElementById("femaleButton")
+      .addEventListener("click", () => buildPage(femaleList));
+    document
+      .getElementById("otherButton")
+      .addEventListener("click", () => buildPage(otherList));
+    document
+      .getElementById("allButton")
+      .addEventListener("click", () => buildPage(persons));
+  });
 
 function buildPage(personsParam) {
   document.querySelector("main").innerHTML = "";
@@ -303,5 +62,8 @@ function buildPage(personsParam) {
     image.style.cssText = "width: 300px;";
   }
 }
-
-buildPage(persons);
+let footer = document.createElement("footer");
+footer.textContent = "CopyRight 2024 made by Giang Pham & Haroun Khenfri";
+footer.style.cssText =
+  "background-color: #a5a923c4; text-align:center ; color: white; padding:10px";
+document.body.append(footer);
