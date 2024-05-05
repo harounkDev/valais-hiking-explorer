@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valais Hiking Trails Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Valais Hiking Trails Explorer</h1>
+    </header>
+    <section id="filter-section">
+      <h2>Filter Trails</h2>
+      <label for="difficulty">Difficulty:</label>
+      <select id="difficulty">
+        <option value="any">Any</option>
+        <option value="Easy">Easy</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Difficult">Difficult</option>
+      </select>
+      <label for="distance">Distance Max (km) :</label>
+      <input type="range" id="distance" min="0" max="20" />
+      <span id="distance-value">0 km</span>
+      <label for="length">Duration Max (hours):</label>
+      <input type="range" id="length" min="0" max="10" />
+      <span id="length-value">0 hours</span>
+      <button id="apply-filters">Apply Filters</button>
+      <span id="filtered-count"></span>
+      <button id="show-all">Show all trails</button>
+      <span id="trail-count"></span>
+    </section>
+    <section id="trail-list">
+      <!-- Display filtered trails here -->
+    </section>
+  </body>
+</html>
