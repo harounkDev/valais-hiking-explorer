@@ -1,8 +1,0 @@
-
-
-1. Prompt the user to input two numbers.
-2. Read and store the input numbers as num1 and num2.
-3. If num1 is greater than num2, subtract num2 from num1.
-   Else, subtract num1 from num2.
-4. Store the result of the subtraction operation.
-5. Print the result.
