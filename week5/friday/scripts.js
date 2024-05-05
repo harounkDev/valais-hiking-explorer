@@ -101,6 +101,6 @@ lis.forEach((li) => {
   };
 });
 
-lis.forEach((li) => {
-  li.onblur = function () {};
-});
+// lis.forEach((li) => {
+//   li.onblur = function () {};
+// });
