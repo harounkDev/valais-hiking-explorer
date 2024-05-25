@@ -161,6 +161,24 @@ input[type="range"] {
   width: 100%;
   margin-bottom: 10px;
 }
+/* #distance {
+  width: 100%;
+}
+.slider-container {
+  position: relative;
+  margin: 20px;
+}
+#distance-value {
+  position: absolute;
+  top: -25px;
+  left: 0;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 2px 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  pointer-events: none;
+} */
 
 #attractions-list {
   display: flex;
@@ -220,7 +238,7 @@ button:hover {
   flex: 1;
   margin-top: 20px;
   display: grid;
-  gap: 10px;
+
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
@@ -230,9 +248,9 @@ button:hover {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
-  transition: 0.3s;
   overflow: hidden;
   transition: clip-path 0.5s;
+  margin: 10px;
 }
 .trail:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -251,9 +269,17 @@ button:hover {
   transition: transform 1s cubic-bezier(0.11, 0.74, 0.35, 0.92);
   transform-origin: bottom;
   overflow: hidden;
+  transition: 0.5s;
 }
 #trail-list img:hover {
   transform: scale(1.05);
+  filter: brightness(1.2);
+}
+#trail-list figure {
+  width: 100%;
+  margin: 5px;
+  overflow: hidden;
+  border-radius: 7px;
 }
 
 /* The footer */
@@ -538,4 +564,30 @@ button:hover {
   .new-tab .weather-info {
     position: relative;
   }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 1.2em;
 }

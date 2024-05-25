@@ -5,13 +5,16 @@ fetch("trails.json")
   .then((response) => response.json())
   .then((trails) => {
     let allTrails = trails;
+    let currentPage = 1;
+    const trailsPerPage = 15;
+    let filteredTrails = allTrails;
 
     function filterTrails() {
       const difficulty = document.getElementById("difficulty").value;
       const distance = parseFloat(document.getElementById("distance").value);
       const duration = parseFloat(document.getElementById("length").value);
 
-      const filteredTrails = allTrails.filter((trail) => {
+      filteredTrails = allTrails.filter((trail) => {
         const isDifficultyMatch =
           difficulty === "any" || trail.difficulty === difficulty;
         const isDistanceMatch = parseFloat(trail.distance) <= distance;
@@ -19,21 +22,28 @@ fetch("trails.json")
         return isDifficultyMatch && isDistanceMatch && isDurationMatch;
       });
 
-      displayTrails(filteredTrails);
+      currentPage = 1;
+      displayTrails();
       displayTrailCount(filteredTrails.length);
     }
 
-    function displayTrails(trails) {
+    function displayTrails() {
       const trailList = document.getElementById("trail-list");
       trailList.innerHTML = "";
 
-      for (const trail of trails) {
-        const trailElement = document.createElement("div");
+      const start = (currentPage - 1) * trailsPerPage;
+      const end = start + trailsPerPage;
+      const paginatedTrails = filteredTrails.slice(start, end);
+
+      for (const trail of paginatedTrails) {
+        const trailElement = document.createElement("section");
         trailElement.classList.add("trail");
 
         const trailName = document.createElement("h3");
         trailName.textContent = trail.name;
         trailElement.appendChild(trailName);
+
+        const imgContainer = document.createElement("figure");
 
         const trailImage = document.createElement("img");
         trailImage.src = trail.image;
@@ -42,8 +52,8 @@ fetch("trails.json")
         trailImage.addEventListener("click", () => {
           openTrailInfoWindow(trail);
         });
-
-        trailElement.appendChild(trailImage);
+        imgContainer.appendChild(trailImage);
+        trailElement.appendChild(imgContainer);
 
         const trailInfo = document.createElement("p");
         trailInfo.innerHTML = `<strong>Location:</strong> ${trail.location}<br>
@@ -54,14 +64,34 @@ fetch("trails.json")
 
         trailList.appendChild(trailElement);
       }
+
+      updatePagination();
+      // Scroll to the trail list
+      // trailList.scrollIntoView({ behavior: "smooth" });
     }
 
-    function openTrailInfoWindow(trail) {
-      const trailData = encodeURIComponent(JSON.stringify(trail));
-      window.open(`trail-info.html?data=${trailData}`, "_blank");
+    function updatePagination() {
+      const totalPages = Math.ceil(filteredTrails.length / trailsPerPage);
+      document.getElementById(
+        "pageInfo"
+      ).textContent = `Page ${currentPage} of ${totalPages}`;
+      document.getElementById("prevPage").disabled = currentPage === 1;
+      document.getElementById("nextPage").disabled = currentPage === totalPages;
     }
 
-    displayTrails(allTrails);
+    document.getElementById("prevPage").addEventListener("click", () => {
+      if (currentPage > 1) {
+        currentPage--;
+        displayTrails();
+      }
+    });
+
+    document.getElementById("nextPage").addEventListener("click", () => {
+      if (currentPage < Math.ceil(filteredTrails.length / trailsPerPage)) {
+        currentPage++;
+        displayTrails();
+      }
+    });
 
     document.getElementById("distance").addEventListener("input", function () {
       document.getElementById("distance-value").textContent =
@@ -73,17 +103,40 @@ fetch("trails.json")
         this.value + " hours";
     });
 
-    document
-      .getElementById("apply-filters")
-      .addEventListener("click", filterTrails);
+    document.getElementById("apply-filters").addEventListener("click", () => {
+      filterTrails();
+      document
+        .getElementById("trail-list")
+        .scrollIntoView({ behavior: "smooth" });
+    });
+
     document.getElementById("show-all").addEventListener("click", () => {
-      displayTrails(allTrails);
+      filteredTrails = allTrails;
+      currentPage = 1;
+      displayTrails();
       displayTrailCount(allTrails.length);
+      document
+        .getElementById("trail-list")
+        .scrollIntoView({ behavior: "smooth" });
     });
 
     function displayTrailCount(count) {
       const trailCount = document.getElementById("trail-count");
       trailCount.textContent = `(${count} trails found)`;
     }
+
+    // Initial display
+    displayTrails();
+
+    // Initial call to set the correct position of the sliders
+    document.getElementById("distance-value").textContent =
+      document.getElementById("distance").value + " km";
+    document.getElementById("length-value").textContent =
+      document.getElementById("length").value + " hours";
   })
   .catch((error) => console.error("Error loading trails:", error));
+
+function openTrailInfoWindow(trail) {
+  const trailData = encodeURIComponent(JSON.stringify(trail));
+  window.open(`trail-info.html?data=${trailData}`, "_blank");
+}

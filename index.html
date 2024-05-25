@@ -36,10 +36,17 @@
               <i class="fas fa-bars toggle-menu"></i>
               <ul>
                 <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">Hiking</a></li>
+                <!-- <li><a href="#">Hiking</a></li> -->
                 <li><a href="#trail-list">Destinations</a></li>
-                <li><a href="#">Plan your trip</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="prepare.html">Plan your trip</a></li>
+                <li>
+                  <a
+                    href="https://myportfolioharoun.netlify.app/#contact"
+                    target="”_blank”"
+                    >Contact</a
+                  >
+                </li>
+                <li><a href="#about">About</a></li>
               </ul>
               <!-- <article class="form">
                 <i class="fas fa-search"></i>
@@ -58,12 +65,14 @@
             <option value="Intermediate">Intermediate</option>
             <option value="Difficult">Difficult</option>
           </select>
-          <label for="distance">Distance Max (km) :</label>
-          <input type="range" id="distance" min="0" max="40" />
-          <span id="distance-value">0 km</span>
-          <label for="length">Duration Max (hours):</label>
-          <input type="range" id="length" min="0" max="40" />
-          <span id="length-value">0 hours</span>
+          <section class="slider-container">
+            <label for="distance">Distance Max (km) :</label>
+            <input type="range" id="distance" min="0" max="40" />
+            <span id="distance-value">0 km</span>
+            <label for="length">Duration Max (hours):</label>
+            <input type="range" id="length" min="0" max="40" />
+            <span id="length-value">0 hours</span>
+          </section>
           <section class="buttons">
             <button id="apply-filters">Apply Filters</button>
 
@@ -74,19 +83,20 @@
         </section>
       </section>
       <section id="trail-list"></section>
-
+      <nav id="pagination" class="pagination">
+        <button id="prevPage" disabled>Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextPage">Next</button>
+      </nav>
       <!-- Site footer -->
       <footer class="site-footer">
-        <section class="about">
+        <section class="about" id="about">
           <h6>About</h6>
           <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-            provident, beatae, voluptatibus ipsum, vitae totam eos recusandae
-            natus reiciendis rerum perspiciatis corrupti quaerat repellat
-            tempore deleniti quo quod facere quos iusto. Ea, voluptatibus
-            debitis voluptate reprehenderit odit, sapiente perferendis unde
-            ratione nihil exercitationem voluptatum eveniet. Minus magnam
-            repudiandae dolorem porro.
+            As a participant of Powercoders bootcamp Switzerland spring 2024
+            Aspiring to excel as a front-end web developer,and honing essential
+            business skills and the current web plaform "Explore Valais hiking
+            trails" is my personal project for poco.
           </p>
         </section>
         <section class="under">
@@ -97,14 +107,26 @@
               <li><a href="">Javascript</a></li>
               <li><a href="">CSS</a></li>
               <li><a href="">HTML</a></li>
-              <li><a href="">Templates</a></li>
+              <li>
+                <a
+                  href="https://myportfolioharoun.netlify.app/#projects"
+                  target="”_blank”"
+                  >Templates</a
+                >
+              </li>
             </ul>
           </section>
           <section>
             <h6>Quick Links</h6>
             <ul class="footer-links">
               <li><a href="">About Us</a></li>
-              <li><a href="">Contact Us</a></li>
+              <li>
+                <a
+                  href="https://myportfolioharoun.netlify.app/#contact"
+                  target="”_blank”"
+                  >Contact Us</a
+                >
+              </li>
               <li><a href="">Contribute</a></li>
               <li><a href="">Privacy Policy</a></li>
               <li><a href="">Sitemap</a></li>
@@ -113,8 +135,13 @@
         </section>
         <hr />
         <p class="copyright-text">
-          Copyright &copy; 2024 All Rights Reserved by
-          <a href="#">HarounKhenfri</a>.
+          Made with <span style="color: #e25555">&#9829;</span> in Switzerland
+          2024 by
+          <a
+            href="https://www.linkedin.com/in/haroun-k-1598282a8/"
+            target="”_blank”"
+            >HarounKhenfri</a
+          >.
         </p>
         <ul class="social-icons">
           <li>
@@ -124,10 +151,20 @@
             <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
           </li>
           <li>
-            <a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+            <a
+              class="dribbble"
+              href="https://github.com/Haroun1007"
+              target="”_blank”"
+              ><i class="fa-brands fa-github"></i
+            ></a>
           </li>
           <li>
-            <a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+            <a
+              class="linkedin"
+              href="https://www.linkedin.com/in/haroun-k-1598282a8/"
+              target="”_blank”"
+              ><i class="fab fa-linkedin"></i
+            ></a>
           </li>
         </ul>
       </footer>

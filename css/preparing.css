@@ -1,0 +1,84 @@
+/* Common Styles */
+* {
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+img {
+  filter: brightness(0.5);
+}
+h1,
+h2 {
+  margin: 0;
+}
+
+/* Header Styles */
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/images/preparing.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+header h1 {
+  font-size: 3em;
+  z-index: 100;
+}
+header nav {
+  margin-top: 20px;
+}
+
+/* Main Section Styles */
+main .equipements {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("/images/gear.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 2em;
+  border-radius: 7px;
+  color: black;
+}
+main .equipements h2 {
+    width: fit-content;
+    margin: 1em auto;
+    font-size: 4rem;
+    color: white;   
+}
+
+/* Animation Styles */
+.animated {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.animated.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
