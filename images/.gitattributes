@@ -1,2 +1,0 @@
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-final/images/This[[:space:]]Is[[:space:]]Switzerland[[:space:]]4k_1.mp4 filter=lfs diff=lfs merge=lfs -text
