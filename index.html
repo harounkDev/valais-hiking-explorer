@@ -24,11 +24,11 @@
   <body>
     <main class="container">
       <section class="landing">
-        <video autoplay muted loop playsinline id="bg-video">
-          <source src="images/This_Is_Switzerland_4_4.mp4.mp4" type="video/mp4">
+        <video autoplay muted loop>
+          <source src="images/This_Is_Switzerland_4_4.mp4.mp4" type="video/mp4" />
         </video>
         <header>
-          <main class="navbar">
+          <section class="navbar">
             <a href="#" class="logo">
               <img decoding="async" src="images/logo.png" alt="Logo" />
             </a>
@@ -52,7 +52,7 @@
                 <i class="fas fa-search"></i>
               </article> -->
             </nav>
-          </main>
+          </section>
         </header>
 
         <section id="filter-section">
@@ -81,6 +81,11 @@
             <span id="trail-count"></span>
           </section>
         </section>
+        <section class="hiking-map">
+          <button id="download-map" onclick="downloadPDF()">
+            <i class="fas fa-download"></i> Download Hiking Map
+          </button>
+        </section>
       </section>
       <section id="trail-list"></section>
       <nav id="pagination" class="pagination">
@@ -101,9 +106,8 @@
         </section>
         <section class="under">
           <section>
-            <h6>Categories</h6>
+            <h6>Tools</h6>
             <ul class="footer-links">
-              <li><a href="">UI Design</a></li>
               <li><a href="">Javascript</a></li>
               <li><a href="">CSS</a></li>
               <li><a href="">HTML</a></li>

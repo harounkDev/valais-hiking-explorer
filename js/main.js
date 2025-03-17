@@ -6,7 +6,7 @@ fetch("trails.json")
   .then((trails) => {
     let allTrails = trails;
     let currentPage = 1;
-    const trailsPerPage = 15;
+    const trailsPerPage = 12;
     let filteredTrails = allTrails;
 
     function filterTrails() {
@@ -139,4 +139,13 @@ fetch("trails.json")
 function openTrailInfoWindow(trail) {
   const trailData = encodeURIComponent(JSON.stringify(trail));
   window.open(`trail-info.html?data=${trailData}`, "_blank");
+}
+
+function downloadPDF() {
+  const link = document.createElement("a");
+  link.href = "pdf/the hiking map.pdf";
+  link.download = "pdf/the hiking map.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }

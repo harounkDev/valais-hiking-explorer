@@ -15,14 +15,14 @@
 
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   scroll-behavior: smooth;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   height: 100%;
   font-family: Neutraface, sans-serif;
-  background: linear-gradient(100deg, #1a00bb57, #037f3259);
+  background: linear-gradient(100deg, #0056b36e, #037f3259);
 
   /* filter: blur(10px); */
 }
@@ -126,8 +126,8 @@ header nav ul li a:hover {
   height: 100%;
   background-color: rgb(0 0 0 / 35%);
 }
-video {
-  width: -webkit-fill-available;
+header video {
+  width: 100%;
 }
 
 .landing #filter-section {
@@ -160,6 +160,27 @@ label {
 input[type="range"] {
   width: 100%;
   margin-bottom: 10px;
+}
+#download-map {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0 153 255 / 12%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#download-map:hover {
+  background-color: #0056b3;
 }
 /* #distance {
   width: 100%;
@@ -460,13 +481,25 @@ button:hover {
   background-color: #eceeefb8;
   border-radius: 10px;
   width: fit-content;
-  bottom: 3%;
+  bottom: 10%;
   height: fit-content;
   padding: 0em 2em 2em;
   line-height: 2;
   margin: 3em 5px;
 }
-
+#homebtn {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.702);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#homebtn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
 /* the show additional weather infos */
 
 .forecast-container {
@@ -477,8 +510,8 @@ button:hover {
   display: none;
   position: absolute;
   z-index: 1000;
-  bottom: 12%;
-  left: 29%;
+  bottom: 18%;
+  left: 27%;
   opacity: 0;
   animation: fadeInContainer 1s forwards;
 }
