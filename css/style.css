@@ -134,40 +134,152 @@ header nav ul li a:hover {
   min-height: 100%;
   transform: translate(-50%, -50%);
   object-fit: cover;
- /* important to stay behind your content */
+
 }
 
-.landing #filter-section {
-  width: 100%;
-  text-align: center;
-  color: white;
-  padding: 1em;
-  position: absolute;
-}
-.landing .filter-section h2 {
-  margin: 0 0 30px;
-  text-transform: uppercase;
-  font-weight: normal;
-}
+
 .video .text p {
   margin-bottom: 30px;
 }
 
-/* End Video */
+   /* =====================
+   Updated Filter Tools Styling
+   ===================== */
+
+#filter-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  animation: fadeIn 1s ease forwards;
+  transition: all 0.4s ease;
+}
+
+#filter-section:hover {
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.3);
+}
 
 #filter-section h2 {
-  margin-top: 0;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #fff;
 }
 
 label {
   display: block;
   margin-bottom: 5px;
+  font-weight: bold;
+  color: #fff;
 }
 
+/* Dropdown Styling */
+select {
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 153, 255, 0.15);
+  color: #fff;
+  border: 1px solid rgba(0, 153, 255, 0.3);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  appearance: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+select:hover,
+select:focus {
+  background: rgba(0, 153, 255, 0.25);
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 153, 255, 0.5);
+}
+
+/* Range Input */
 input[type="range"] {
   width: 100%;
   margin-bottom: 10px;
+  appearance: none;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  transition: background 0.3s ease;
 }
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #00bfff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+  background: #1ec8ff;
+}
+
+.range-value {
+  font-size: 1rem;
+  color: #00bfff;
+  margin-top: -5px;
+  margin-bottom: 12px;
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Buttons Styling */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.buttons button {
+  flex: 1;
+  background: rgba(0, 86, 179, 0.9);
+  border: none;
+  color: #fff;
+  padding: 10px 0;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background: rgba(0, 86, 179, 1);
+  transform: translateY(-2px);
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -45%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  #filter-section {
+    padding: 20px;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+}
+
+
+
 #download-map {
   padding: 15px 30px;
   font-size: 1.2em;
@@ -294,7 +406,7 @@ button:hover {
   height: 250px;
   border-radius: 7px;
   cursor: pointer;
-  transition: transform 1s cubic-bezier(0.11, 0.74, 0.35, 0.92);
+  transition: transform 0.5s, filter 0.5s;
   transform-origin: bottom;
   overflow: hidden;
   transition: 0.5s;
@@ -426,12 +538,8 @@ button:hover {
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-.social-icons a:active,
-.social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
   background-color: #29aafe;
@@ -462,172 +570,3 @@ button:hover {
   }
 }
 
-/* Start opened new page */
-.new-tab {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 100%;
-  text-align: center;
-  overflow: hidden;
-}
-.new-tab h1 {
-  color: white;
-  font-size: clamp(32px, 2.1098vw + 24.4986px, 56px);
-  line-height: 1.1;
-}
-#trail-image {
-  width: 100%;
-  height: 500px;
-  position: relative;
-}
-.new-tab .weather-info {
-  font-weight: bold;
-  /* display: flex; */
-  position: absolute;
-  background-color: #eceeefb8;
-  border-radius: 10px;
-  width: fit-content;
-  bottom: 10%;
-  height: fit-content;
-  padding: 0em 2em 2em;
-  line-height: 2;
-  margin: 3em 5px;
-}
-#homebtn {
-  padding: 10px 20px;
-  font-size: 1em;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.702);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-#homebtn:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-}
-/* the show additional weather infos */
-
-.forecast-container {
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #3b82f6c2;
-  border-radius: 10px;
-  display: none;
-  position: absolute;
-  z-index: 1000;
-  bottom: 18%;
-  left: 27%;
-  opacity: 0;
-  animation: fadeInContainer 1s forwards;
-}
-
-.forecast-item {
-  margin-bottom: 15px;
-  padding: 10px;
-  margin-right: 10px;
-  border-radius: 5px;
-  background-color: #ffffff8f;
-  opacity: 0;
-  animation: fadeIn 0.1s forwards;
-}
-.forecast-item:hover {
-  transform: scale(1.05);
-}
-
-.weather-info:hover i {
-  animation: moving-arrow 0.5s linear infinite;
-}
-
-.forecast-item h2 {
-  margin: 0 0 10px;
-  font-size: 1.2em;
-}
-
-.forecast-item p {
-  margin: 5px 0;
-}
-
-/* Animations */
-@keyframes fadeInContainer {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.forecast-container > .forecast-item:nth-child(1) {
-  animation-delay: 0.1s;
-}
-.forecast-container > .forecast-item:nth-child(2) {
-  animation-delay: 0.2s;
-}
-.forecast-container > .forecast-item:nth-child(3) {
-  animation-delay: 0.3s;
-}
-.forecast-container > .forecast-item:nth-child(4) {
-  animation-delay: 0.4s;
-}
-.forecast-container > .forecast-item:nth-child(5) {
-  animation-delay: 0.5s;
-}
-
-@keyframes moving-arrow {
-  100% {
-    transform: translateX(10px);
-  }
-}
-@media (max-width: 768px) {
-  .new-tab {
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .forecast-container {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    display: block;
-    left: 0;
-  }
-  .new-tab .weather-info {
-    position: relative;
-  }
-}
-
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.pagination button {
-  margin: 0 10px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.pagination button:disabled {
-  background-color: #cccccc;
-  cursor: not-allowed;
-}
-
-.pagination span {
-  font-size: 1.2em;
-}

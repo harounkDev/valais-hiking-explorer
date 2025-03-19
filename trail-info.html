@@ -2,29 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Trail Info</title>
+    <!-- Font Awesome + Your main CSS files -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/all.css" />
-    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Dedicated CSS for Trail Info Page -->
+    <link rel="stylesheet" href="css/trail-info.css" />
   </head>
   <body>
-    <main class="new-tab">
-      <header class="header">
-        <h1 id="trail-name"></h1>
-      </header>
-      <section class="image-container">
-        <img id="trail-image" src="" alt="" />
-      </section>
-      <section class="weather-info" id="weather-info"></section>
-      <nav>
-        <button id="homebtn" onclick="window.location.href='index.html'">
-          Home Page
-        </button>
-      </nav>
+    <main class="trail-info-page">
+      <!-- Hero Section -->
+      <header class="trail-hero">
+        <!-- Main Hero Image -->
+        <img id="trail-image" src="" alt="Trail Image" />
 
-      <section class="forecast-container" id="forecast-container"></section>
+        <!-- Title Overlay -->
+        <div class="hero-overlay">
+          <h1 id="trail-name"></h1>
+        </div>
+      </header>
+
+      <!-- Weather Panel (now fixed, not absolute) -->
+      <div class="weather-panel">
+        <section id="weather-info" class="weather-info"></section>
+        <section id="forecast-container" class="forecast-container"></section>
+      </div>
+
+      <!-- Trail Details (stats + optional description) -->
+      <section class="trail-details" id="trail-details">
+        <div class="stats-container">
+          <div class="stat-box">
+            <i class="fa fa-map-marker"></i>
+            <p><strong>Location:</strong> <span id="trail-location"></span></p>
+          </div>
+          <div class="stat-box">
+            <i class="fa fa-walking"></i>
+            <p><strong>Distance:</strong> <span id="trail-distance"></span></p>
+          </div>
+          <div class="stat-box">
+            <i class="fa fa-clock"></i>
+            <p><strong>Duration:</strong> <span id="trail-duration"></span></p>
+          </div>
+          <div class="stat-box">
+            <i class="fa fa-signal"></i>
+            <p><strong>Difficulty:</strong> <span id="trail-difficulty"></span></p>
+          </div>
+        </div>
+        <p class="trail-description" id="trail-description"></p>
+      </section>
+
+      <!-- Navigation -->
+      <nav>
+        <button id="homebtn" onclick="window.location.href='index.html'">Home Page</button>
+      </nav>
     </main>
+
+    <!-- Trail Info JS -->
     <script src="js/trail-info.js"></script>
   </body>
 </html>
