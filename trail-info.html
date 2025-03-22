@@ -53,12 +53,56 @@
         <p class="trail-description" id="trail-description"></p>
       </section>
 
+    
       <!-- Navigation -->
       <nav>
         <button id="homebtn" onclick="window.location.href='index.html'">Home Page</button>
       </nav>
     </main>
-
+    <div id="map" style="width: 100%; height: 400px;"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCwtLNio1UsTTZyH39N2gbh_EfNL_FRDY"></script>
+    <script>
+      function initMap() {
+        // 1. Get the trail name from the page
+        var trailName = document.getElementById('trail-name').textContent.trim();
+    
+        // 2. Create a geocoder instance
+        var geocoder = new google.maps.Geocoder();
+    
+        // 3. Use the trail name as the 'address' in geocode()
+        geocoder.geocode({ address: trailName }, function(results, status) {
+          if (status === 'OK') {
+            // 4. If geocoding is successful, get the coordinates
+            var coords = results[0].geometry.location;
+    
+            // 5. Initialize the map at those coordinates
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 13,
+              center: coords
+            });
+    
+            // 6. Place a marker at the geocoded location
+            new google.maps.Marker({
+              map: map,
+              position: coords,
+              title: trailName
+            });
+          } else {
+            console.error("Geocode failed for the trail name:", trailName, "Status:", status);
+            // Optionally, you could show an error message or fallback location
+          }
+        });
+      }
+    
+      // Initialize the map when the page loads
+      window.onload = initMap;
+    </script>
+    
+    
+    
+    <footer class="site-footer">
+      Made with <span class="heart">❤️</span> in Switzerland by Haroun Khenfri. All rights reserved.
+    </footer>
     <!-- Trail Info JS -->
     <script src="js/trail-info.js"></script>
   </body>

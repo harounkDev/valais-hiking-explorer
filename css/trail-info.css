@@ -35,7 +35,7 @@
 .weather-panel {
     position: fixed;
     top: 25px;
-    right: 25px;
+    left: 25px;
     width: 280px;
     max-height: 70vh;
     overflow-y: auto;
@@ -224,6 +224,27 @@ nav button:hover {
     transform: translateY(-2px);
 }
 
+.site-footer {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2;
+}
+.heart {
+  color: red;              
+  display: inline-block;   
+  animation: pulse 1s infinite ease-in-out;
+  transform-origin: center center; 
+}
+
+/* Keyframes for the pulsing animation */
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
 /*Animation */
 @keyframes fadeIn {
     from {opacity: 0; transform: translateY(10px);}

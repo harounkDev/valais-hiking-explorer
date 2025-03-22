@@ -152,11 +152,11 @@ header nav ul li a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 5;
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
   padding: 30px;
   border-radius: 15px;
-  max-width: 500px;
+  max-width: 700px;
   width: 90%;
   box-shadow: 0 8px 24px rgba(0,0,0,0.4);
   animation: fadeIn 1s ease forwards;
@@ -167,13 +167,14 @@ header nav ul li a:hover {
   box-shadow: 0 0 20px rgba(0, 191, 255, 0.3);
 }
 
-#filter-section h2 {
+#filter-section h1, h2 {
   margin: 0 0 20px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.8rem;
   color: #fff;
 }
+
 
 label {
   display: block;
@@ -261,6 +262,13 @@ input[type="range"]::-webkit-slider-thumb:hover {
   background: rgba(0, 86, 179, 1);
   transform: translateY(-2px);
 }
+#distance-value, #length-value, #trail-count {
+  color: #009ae6; /* soft cyan */
+  font-weight: bold;
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
 
 /* Fade In Animation */
 @keyframes fadeIn {
@@ -496,6 +504,19 @@ button:hover {
 .copyright-text {
   margin: 0 auto;
   width: fit-content;
+}
+.heart {
+  color: red;             
+  display: inline-block;   
+  animation: pulse 1s infinite ease-in-out;
+  transform-origin: center center; 
+}
+
+/* Keyframes for the pulsing animation */
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.4); }
+  100% { transform: scale(1); }
 }
 @media (max-width: 991px) {
   .site-footer [class^="col-"] {

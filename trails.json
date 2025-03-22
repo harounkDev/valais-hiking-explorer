@@ -1,11 +1,13 @@
 [
+  
   {
     "name": "Tour of the Val d’Anniviers: Grimentz – Vercorin (stage 4)",
     "location": "Grimentz",
     "duration": "4:30 h",
     "difficulty": "Intermediate",
     "distance": "12.93 km",
-    "image": "https://img.oastatic.com/img2/27579387/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/27579387/2048x2048/.jpg",
+    "description": "This stage of the Tour of the Val d’Anniviers takes you on a captivating journey from Grimentz to Vercorin. Hikers are treated to breathtaking views of alpine landscapes, traditional stone chalets, and lush meadows. The trail features winding paths, historic markers, and opportunities to spot local wildlife, making it an immersive experience in the heart of the Swiss Alps."
   },
   {
     "name": "Höhenweg Schalb-Jungu",
@@ -13,7 +15,8 @@
     "duration": "2:50 h",
     "difficulty": "Intermediate",
     "distance": "7.02 km",
-    "image": "https://img.oastatic.com/img2/45705858/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/45705858/2048x2048/.jpg",
+    "description": "Höhenweg Schalb-Jungu is a scenic ridge trail in Grächen that offers panoramic views over the surrounding valleys and peaks. The well-marked path runs along elevated terrain, allowing hikers to experience the crisp mountain air and the rugged beauty of the Swiss landscape. It is ideal for those seeking a moderate challenge with rewarding vistas."
   },
   {
     "name": "Loop to Flüealp alpine pasture",
@@ -21,7 +24,8 @@
     "duration": "4:30 h",
     "difficulty": "Intermediate",
     "distance": "13.38 km",
-    "image": "https://img.oastatic.com/img2/29182400/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/29182400/2048x2048/.jpg",
+    "description": "This loop trail leads you to the charming Flüealp alpine pasture near Leukerbad. It winds through meadows dotted with wildflowers, passes by crystal clear streams, and provides impressive views of surrounding peaks. The trail is perfect for hikers who appreciate a mix of gentle ascents and occasional steep sections in a serene natural setting."
   },
   {
     "name": "Hike around Mauvoisin lake",
@@ -29,7 +33,8 @@
     "duration": "8:00 h",
     "difficulty": "Difficult",
     "distance": "22.21 km",
-    "image": "https://img.oastatic.com/img2/25310034/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/25310034/2048x2048/.jpg",
+    "description": "The hike around Mauvoisin Lake is a challenging yet rewarding journey. Located near Verbier, this route traverses rugged terrain with steep climbs and descents, offering spectacular views of glacial lakes, towering cliffs, and dramatic mountain scenery. The trail is suited for experienced hikers looking for a full-day adventure in a pristine alpine environment."
   },
   {
     "name": "Across the valley «La combe de L’A»",
@@ -37,7 +42,8 @@
     "duration": "7:30 h",
     "difficulty": "Difficult",
     "distance": "21.16 km",
-    "image": "https://img.oastatic.com/img2/29118957/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/29118957/2048x2048/.jpg",
+    "description": "This demanding trail takes you across the valley of La combe de L’A, where dramatic landscapes unfold with rugged mountain passes and deep valleys. Hikers will navigate challenging ascents and descents while enjoying unique geological formations and traditional rural settings, capturing the raw beauty of the Valais region."
   },
   {
     "name": "Sentier Panorama 4000",
@@ -45,7 +51,8 @@
     "duration": "4:20 h",
     "difficulty": "Difficult",
     "distance": "13.42 km",
-    "image": "https://img.oastatic.com/img2/29616851/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/29616851/2048x2048/.jpg",
+    "description": "Sentier Panorama 4000 is renowned for its stunning high-altitude vistas around Crans-Montana. The trail combines steep ascents with breathtaking views of snow-capped peaks, expansive valleys, and alpine lakes. It is a favorite among seasoned hikers seeking a panoramic experience that highlights the dramatic terrain of the Swiss Alps."
   },
   {
     "name": "Tour du Val d’Hérens: Grande Dixence dam to Arolla (stage 2)",
@@ -53,7 +60,8 @@
     "duration": "6:15 h",
     "difficulty": "Difficult",
     "distance": "17.93 km",
-    "image": "https://img.oastatic.com/img2/19241841/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/19241841/2048x2048/.jpg",
+    "description": "This challenging stage of the Tour du Val d’Hérens connects the impressive Grande Dixence dam to the picturesque village of Arolla. The trail winds through rugged terrain, showcasing impressive dam architecture, pristine alpine meadows, and breathtaking mountain passes. Hikers are rewarded with diverse landscapes and a glimpse into the engineering marvels of the region."
   },
   {
     "name": "Tour du Val d’Hérens: Cabane Becs de Bosson - Nax (stage 5)",
@@ -61,7 +69,8 @@
     "duration": "3:45 h",
     "difficulty": "Intermediate",
     "distance": "13.36 km",
-    "image": "https://img.oastatic.com/img2/26789285/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/26789285/2048x2048/.jpg",
+    "description": "In this stage of the Tour du Val d’Hérens, the path runs from the Cabane Becs de Bosson to the quaint village of Nax. The route offers a delightful mix of rugged mountain paths, alpine meadows, and traditional Swiss architecture. Hikers can enjoy panoramic views of surrounding peaks, making it an enriching experience for those who love mountain adventures."
   },
   {
     "name": "Leuker Sonnenberge",
@@ -69,7 +78,8 @@
     "duration": "3:20 h",
     "difficulty": "Easy",
     "distance": "11.64 km",
-    "image": "https://img.oastatic.com/img2/29148221/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/29148221/2048x2048/.jpg",
+    "description": "Leuker Sonnenberge is a gentle trail perfect for casual hikers and families. Set in the sunny landscapes near Gampel-Bratsch-Jeizinen, this route meanders through rolling hills, lush vineyards, and picturesque orchards, providing a relaxed environment and lovely views of the Valais countryside."
   },
   {
     "name": "Ascent of the Eggerhorn, descent into the Binntal",
@@ -77,7 +87,8 @@
     "duration": "6:45 h",
     "difficulty": "Difficult",
     "distance": "14.80 km",
-    "image": "https://img.oastatic.com/img2/17157903/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/17157903/2048x2048/.jpg",
+    "description": "This trail is a thrilling alpine challenge featuring the ascent of the imposing Eggerhorn and a descent into the dramatic Binntal. With rugged terrain and steep gradients, hikers are treated to striking vistas of rocky outcrops and verdant valleys, making it a must-try for adventure enthusiasts and experienced mountaineers."
   },
   {
     "name": "Lötschental Panoramic Trail Lauchernalp-Fafleralp",
@@ -85,7 +96,8 @@
     "duration": "2:40 h",
     "difficulty": "Easy",
     "distance": "9.35 km",
-    "image": "https://img.oastatic.com/img2/3183108/2048x2048/.jpg"
+    "image": "https://img.oastatic.com/img2/3183108/2048x2048/.jpg",
+    "description": "The Lötschental Panoramic Trail offers a serene and accessible hiking experience. Running between Lauchernalp and Fafleralp, the path provides beautiful, unobstructed views of the Lötschental valley, alpine meadows, and gentle slopes, ideal for leisurely walks and nature appreciation."
   },
   {
     "name": "Petit Bisse and the old Bisse de la Tsandra in Conthey",
@@ -93,870 +105,1000 @@
     "duration": "3:23 h",
     "difficulty": "Easy",
     "distance": "11.84 km",
-    "image": "https://img.oastatic.com/img2/27153380/2048x2048/.jpg"
-  },
-  {
-    "name": "Terraced Vineyards Trail around Martigny",
-    "location": "Martigny",
-    "duration": "1:45 h",
-    "difficulty": "Easy",
-    "distance": "6.39 km",
-    "image": "https://img.oastatic.com/img2/27348478/2048x2048/.jpg"
-  },
-  {
-    "name": "Bettmerhorn – Hängebrücke Aspi-Titter",
-    "location": "Bettmeralp",
-    "duration": "6:55 h",
-    "difficulty": "Intermediate",
-    "distance": "19.43 km",
-    "image": "https://img.oastatic.com/img2/65526629/2048x2048/.jpg"
-  },
-  {
-    "name": "Längfluh / Saas-Fee",
-    "location": "Saas-Fee",
-    "duration": "2:15 h",
-    "difficulty": "Intermediate",
-    "distance": "6.45 km",
-    "image": "https://img.oastatic.com/img2/47628540/2048x2048/.jpg"
-  },
-  {
-    "name": "Chemin d'Ossona",
-    "location": "Vernamiège",
-    "duration": "2:30 h",
-    "difficulty": "Intermediate",
-    "distance": "7.71 km",
-    "image": "https://img.oastatic.com/img2/47248863/2048x2048/.jpg"
-  },
-  {
-    "name": "Around the Mattmark reservoir in Saastal valley",
-    "location": "Saas-Almagell",
-    "duration": "2:15 h",
-    "difficulty": "Easy",
-    "distance": "8.04 km",
-    "image": "https://img.oastatic.com/img2/19194954/2048x2048/.jpg"
-  },
-  {
-    "name": "Sentier des Chamois",
-    "location": "Verbier",
-    "duration": "4:40 h",
-    "difficulty": "Difficult",
-    "distance": "11.55 km",
-    "image": "https://img.oastatic.com/img2/70533729/2048x2048/.jpg"
-  },
-  {
-    "name": "Sentier du Balcon du Mont-Blanc",
-    "location": "Finhaut",
-    "duration": "3:10 h",
-    "difficulty": "Intermediate",
-    "distance": "8.41 km",
-    "image": "https://img.oastatic.com/img2/56325115/2048x2048/.jpg"
-  },
-  {
-    "name": "Höhenweg Allmagelleralp",
-    "location": "Saas-Grund",
-    "duration": "3:15 h",
-    "difficulty": "Intermediate",
-    "distance": "11.07 km",
-    "image": "https://img.oastatic.com/img2/29657603/2048x2048/.jpg"
-  },
-  {
-    "name": "Magic waters experience Grächen",
-    "location": "Grächen",
-    "duration": "4:35 h",
-    "difficulty": "Easy",
-    "distance": "14.97 km",
-    "image": "https://img.oastatic.com/img2/81619922/2048x2048/.jpg"
-  },
-  {
-    "name": "From Leukerbad to Albinen via the historical Albinen ladders",
-    "location": "Leukerbad",
-    "duration": "2:00 h",
-    "difficulty": "Difficult",
-    "distance": "6.26 km",
-    "image": "https://img.oastatic.com/img2/57912109/2048x2048/.jpg"
-  },
-  {
-    "name": "Circular hike from Bettmerhorn to Bettmeralp via Märjelensee",
-    "location": "Bettmeralp",
-    "duration": "5:30 h",
-    "difficulty": "Intermediate",
-    "distance": "15.13 km",
-    "image": "https://img.oastatic.com/img2/70004561/2048x2048/.jpg"
-  },
-  {
-    "name": "The Gries Pass mule trail",
-    "location": "Obergoms",
-    "duration": "8:00 h",
-    "difficulty": "Difficult",
-    "distance": "20.77 km",
-    "image": "https://img.oastatic.com/img2/27537623/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour de la Seya",
-    "location": "Ovronnaz",
-    "duration": "2:59 h",
-    "difficulty": "Intermediate",
-    "distance": "8.10 km",
-    "image": "https://img.oastatic.com/img2/27188446/2048x2048/.jpg"
-  },
-  {
-    "name": "Chemin du Vignoble: Venthône – Leuk (stage 4)",
-    "location": "Venthône",
-    "duration": "4:00 h",
-    "difficulty": "Intermediate",
-    "distance": "12.80 km",
-    "image": "https://img.oastatic.com/img2/28481801/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour of the Val d’Anniviers: Zinal–Grimentz (stage 3)",
-    "location": "Zinal",
-    "duration": "4:30 h",
-    "difficulty": "Intermediate",
-    "distance": "14.36 km",
-    "image": "https://img.oastatic.com/img2/27579386/2048x2048/.jpg"
-  },
-  {
-    "name": "The Jolischlucht gorge",
-    "location": "Raron-Niedergesteln",
-    "duration": "2:45 h",
-    "difficulty": "Intermediate",
-    "distance": "7.95 km",
-    "image": "https://img.oastatic.com/img2/47946200/2048x2048/.jpg"
-  },
-  {
-    "name": "From Croix de Culet over the Col de Cou pass to Champéry",
-    "location": "Champéry",
-    "duration": "5:38 h",
-    "difficulty": "Intermediate",
-    "distance": "17.56 km",
-    "image": "https://img.oastatic.com/img2/27187431/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour de la falaise de St-Maurice",
-    "location": "St-Maurice",
-    "duration": "2:15 h",
-    "difficulty": "Intermediate",
-    "distance": "7.29 km",
-    "image": "https://img.oastatic.com/img2/26818826/2048x2048/.jpg"
-  },
-  {
-    "name": "Chemin du Vignoble: Saillon to Sion (stage 2)",
-    "location": "Saillon",
-    "duration": "6:45 h",
-    "difficulty": "Intermediate",
-    "distance": "21.73 km",
-    "image": "https://img.oastatic.com/img2/18084356/2048x2048/.jpg"
-  },
-  {
-    "name": "Autour du Mont Gond",
-    "location": "Nendaz",
-    "duration": "4:40 h",
-    "difficulty": "Intermediate",
-    "distance": "14.16 km",
-    "image": "https://img.oastatic.com/img2/62199696/2048x2048/.jpg"
-  },
-  {
-    "name": "Heidaweg in Visperterminen",
-    "location": "Visperterminen",
-    "duration": "3:00 h",
-    "difficulty": "Intermediate",
-    "distance": "7.91 km",
-    "image": "https://img.oastatic.com/img2/29618105/2048x2048/.jpg"
-  },
-  {
-    "name": "Chemin du Vignoble: Sion to Venthône (stage 3)",
-    "location": "Sion",
-    "duration": "5:38 h",
-    "difficulty": "Intermediate",
-    "distance": "18.72 km",
-    "image": "https://img.oastatic.com/img2/29661238/2048x2048/.jpg"
-  },
-  {
-    "name": "Sentier viticole / Rebweg",
-    "location": "Sierre",
-    "duration": "2:00 h",
-    "difficulty": "Easy",
-    "distance": "7.53 km",
-    "image": "https://img.oastatic.com/img2/28449297/2048x2048/.jpg"
-  },
-  {
-    "name": "Laggintal loop in the Simplon area",
-    "location": "Simplon (Simplonpass)",
-    "duration": "5:30 h",
-    "difficulty": "Difficult",
-    "distance": "14.58 km",
-    "image": "https://img.oastatic.com/img2/60345019/2048x2048/.jpg"
-  },
-  {
-    "name": "Ascent of the Torrenthorn",
-    "location": "Leukerbad",
-    "duration": "3:00 h",
-    "difficulty": "Intermediate",
-    "distance": "6.84 km",
-    "image": "https://img.oastatic.com/img2/57909016/2048x2048/.jpg"
-  },
-  {
-    "name": "Bhutanbrücke",
-    "location": "Turtmann-Unterems",
-    "duration": "3:10 h",
-    "difficulty": "Easy",
-    "distance": "10.48 km",
-    "image": "https://img.oastatic.com/img2/28416918/2048x2048/.jpg"
-  },
-  {
-    "name": "Alpine hike: UNESCO high-altitude trail from Bettmerhorn to Eggishorn",
-    "location": "Bettmeralp",
-    "duration": "3:00 h",
-    "difficulty": "Intermediate",
-    "distance": "3.04 km",
-    "image": "https://img.oastatic.com/img2/82420959/2048x2048/.jpg"
-  },
-  {
-    "name": "Across the Follatères nature reserve to Fully",
-    "location": "Fully",
-    "duration": "2:00 h",
-    "difficulty": "Intermediate",
-    "distance": "7.75 km",
-    "image": "https://img.oastatic.com/img2/25429897/2048x2048/.jpg"
-  },
-  {
-    "name": "From the Grimsel Pass up to the Sidelhorn",
-    "location": "Obergoms",
-    "duration": "3:30 h",
-    "difficulty": "Intermediate",
-    "distance": "8.56 km",
-    "image": "https://img.oastatic.com/img2/28093022/2048x2048/.jpg"
-  },
-  {
-    "name": "Lauchernalp - Restipass - Rinderhütte (Leukerbad)",
-    "location": "Lötschental",
-    "duration": "5:30 h",
-    "difficulty": "Intermediate",
-    "distance": "14.84 km",
-    "image": "https://img.oastatic.com/img2/4215906/2048x2048/.jpg"
-  },
-  {
-    "name": "Chemin des Contrées",
-    "location": "Crans-Montana",
-    "duration": "4:25 h",
-    "difficulty": "Intermediate",
-    "distance": "14.82 km",
-    "image": "https://img.oastatic.com/img2/78472645/2048x2048/.jpg"
-  },
-  {
-    "name": "Mark Twain Trail (Nr. 18)",
-    "location": "Zermatt",
-    "duration": "50 m",
-    "difficulty": "Intermediate",
-    "distance": "3.38 km",
-    "image": "https://img.oastatic.com/img2/9412889/2048x2048/.jpg"
-  },
-  {
-    "name": "7 lakes hiking Trail",
-    "location": "Bellwald",
-    "duration": "3:00 h",
-    "difficulty": "Intermediate",
-    "distance": "8.14 km",
-    "image": "https://img.oastatic.com/img2/64030699/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour du Val d’Hérens: Evolène to Cabane Becs de Bosson (stage 4)",
-    "location": "Evolène",
-    "duration": "5:30 h",
-    "difficulty": "Difficult",
-    "distance": "10.84 km",
-    "image": "https://img.oastatic.com/img2/27639218/2048x2048/.jpg"
-  },
-  {
-    "name": "From Cabane Brunet to Cabane FXB Panossière",
-    "location": "Bruson",
-    "duration": "3:00 h",
-    "difficulty": "Intermediate",
-    "distance": "7.00 km",
-    "image": "https://img.oastatic.com/img2/65527180/2048x2048/.jpg"
-  },
-  {
-    "name": "Sentier des alpages de Vionnaz",
-    "location": "Torgon",
-    "duration": "4:30 h",
-    "difficulty": "Easy",
-    "distance": "13.49 km",
-    "image": "https://img.oastatic.com/img2/63981040/2048x2048/.jpg"
-  },
-  {
-    "name": "Lac des Vaux",
-    "location": "Verbier",
-    "duration": "3:00 h",
-    "difficulty": "Intermediate",
-    "distance": "8.76 km",
-    "image": "https://img.oastatic.com/img2/46780341/2048x2048/.jpg"
-  },
-  {
-    "name": "Cultural pathway Dala-Raspille",
-    "location": "Leukerbad",
-    "duration": "3:00 h",
-    "difficulty": "Intermediate",
-    "distance": "16.23 km",
-    "image": "https://img.oastatic.com/img2/28449318/2048x2048/.jpg"
-  },
-  {
-    "name": "Riederfurka – Knebelbrücken Trail",
-    "location": "Riederalp",
-    "duration": "3:45 h",
-    "difficulty": "Intermediate",
-    "distance": "9.59 km",
-    "image": "https://img.oastatic.com/img2/61010440/2048x2048/.jpg"
-  },
-  {
-    "name": "Cleuson Dam",
-    "location": "Nendaz",
-    "duration": "3:10 h",
-    "difficulty": "Intermediate",
-    "distance": "11.60 km",
-    "image": "https://img.oastatic.com/img2/52665608/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour des lapiaz de Zanfleuron",
-    "location": "Les Coteaux du Soleil",
-    "duration": "3:00 h",
-    "difficulty": "Difficult",
-    "distance": "9.76 km",
-    "image": "https://img.oastatic.com/img2/28093122/2048x2048/.jpg"
-  },
-  {
-    "name": "Hike from Belalp to Riederalp via the suspension bridge",
-    "location": "Blatten Belalp",
-    "duration": "4:30 h",
-    "difficulty": "Intermediate",
-    "distance": "11.43 km",
-    "image": "https://img.oastatic.com/img2/26770688/2048x2048/.jpg"
-  },
-  {
-    "name": "Sentier des bouquetins",
-    "location": "Hérémence",
-    "duration": "3:20 h",
-    "difficulty": "Intermediate",
-    "distance": "8.64 km",
-    "image": "https://img.oastatic.com/img2/17159704/2048x2048/.jpg"
-  },
-  {
-    "name": "Marmot Trail (Nr. 8)",
-    "location": "Zermatt",
-    "duration": "1:10 h",
-    "difficulty": "Intermediate",
-    "distance": "3.79 km",
-    "image": "https://img.oastatic.com/img2/8747286/2048x2048/.jpg"
-  },
-  {
-    "name": "Over the Raspille",
-    "location": "Albinen",
-    "duration": "3:15 h",
-    "difficulty": "Intermediate",
-    "distance": "10.69 km",
-    "image": "https://img.oastatic.com/img2/56325367/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour of the Val d'Anniviers : the five 4,000 meter peak hike (stage 2)",
-    "location": "St-Luc",
-    "duration": "4:35 h",
-    "difficulty": "Intermediate",
-    "distance": "15.68 km",
-    "image": "https://img.oastatic.com/img2/29558978/2048x2048/.jpg"
-  },
-  {
-    "name": "Massaweg (Massa Trail) from Blatten to Mörel",
-    "location": "Blatten Belalp",
-    "duration": "3:00 h",
-    "difficulty": "Intermediate",
-    "distance": "7.99 km",
-    "image": "https://img.oastatic.com/img2/27011806/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour of the Val d’Anniviers: Pontis - Chandolin - St-Luc (stage 1)",
-    "location": "Vercorin",
-    "duration": "4:00 h",
-    "difficulty": "Intermediate",
-    "distance": "9.33 km",
-    "image": "https://img.oastatic.com/img2/28189324/2048x2048/.jpg"
-  },
-  {
-    "name": "From Visperterminen to the Simplon Pass via the Nanztal valley",
-    "location": "Visperterminen",
-    "duration": "5:00 h",
-    "difficulty": "Difficult",
-    "distance": "18.69 km",
-    "image": "https://img.oastatic.com/img2/40798303/2048x2048/.jpg"
-  },
-  {
-    "name": "5 Lakes Walk (Nr. 11)",
-    "location": "Zermatt",
-    "duration": "2:30 h",
-    "difficulty": "Intermediate",
-    "distance": "9.76 km",
-    "image": "https://img.oastatic.com/img2/24516005/2048x2048/.jpg"
-  },
-  {
-    "name": "Twingischlucht",
-    "location": "Binn",
-    "duration": "3:45 h",
-    "difficulty": "Easy",
-    "distance": "12.97 km",
-    "image": "https://img.oastatic.com/img2/26770347/2048x2048/.jpg"
-  },
-  {
-    "name": "Binntal Schaplersee-Weg",
-    "location": "Binn",
-    "duration": "3:25 h",
-    "difficulty": "Intermediate",
-    "distance": "7.86 km",
-    "image": "https://img.oastatic.com/img2/62202211/2048x2048/.jpg"
-  },
-  {
-    "name": "Brudelhorn",
-    "location": "Münster",
-    "duration": "6:00 h",
-    "difficulty": "Difficult",
-    "distance": "14.49 km",
-    "image": "https://img.oastatic.com/img2/29186588/2048x2048/.jpg"
-  },
-  {
-    "name": "Crossing the Pfyn Forest",
-    "location": "Sierre",
-    "duration": "3:10 h",
-    "difficulty": "Intermediate",
-    "distance": "11.72 km",
-    "image": "https://img.oastatic.com/img2/67941037/2048x2048/.jpg"
-  },
-  {
-    "name": "Sentier des Sens La Tzoumaz (Trail of the senses)",
-    "location": "La Tzoumaz",
-    "duration": "1:30 h",
-    "difficulty": "Easy",
-    "distance": "5.50 km",
-    "image": "https://img.oastatic.com/img2/25441878/2048x2048/.jpg"
-  },
-  {
-    "name": "Hike around Tseuzier lake.",
-    "location": "Anzère",
-    "duration": "1:30 h",
-    "difficulty": "Easy",
-    "distance": "4.63 km",
-    "image": "https://img.oastatic.com/img2/44216852/2048x2048/.jpg"
-  },
-  {
-    "name": "Chemin du Lac de Taney",
-    "location": "Vouvry",
-    "duration": "3:05 h",
-    "difficulty": "Intermediate",
-    "distance": "8.59 km",
-    "image": "https://img.oastatic.com/img2/29334404/2048x2048/.jpg"
-  },
-  {
-    "name": "Thermal Canyon Walk",
-    "location": "Leukerbad",
-    "duration": "1:30 h",
-    "difficulty": "Intermediate",
-    "distance": "2.83 km",
-    "image": "https://img.oastatic.com/img2/57925975/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour du Lac de Moiry",
-    "location": "Grimentz",
-    "duration": "4:35 h",
-    "difficulty": "Intermediate",
-    "distance": "13.36 km",
-    "image": "https://img.oastatic.com/img2/27188931/2048x2048/.jpg"
-  },
-  {
-    "name": "Stoneman Glaciara Hike",
-    "location": "Fiesch",
-    "duration": "22:35 h",
-    "difficulty": "Difficult",
-    "distance": "63.37 km",
-    "image": "https://img.oastatic.com/img2/74909790/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour des Alpages",
-    "location": "Anzère",
-    "duration": "4:50 h",
-    "difficulty": "Intermediate",
-    "distance": "16.59 km",
-    "image": "https://img.oastatic.com/img2/41017598/2048x2048/.jpg"
-  },
-  {
-    "name": "Ibex Trail and ascent to the Mällig",
-    "location": "Saas-Fee",
-    "duration": "4:15 h",
-    "difficulty": "Intermediate",
-    "distance": "10.12 km",
-    "image": "https://img.oastatic.com/img2/29661573/2048x2048/.jpg"
-  },
-  {
-    "name": "Chäserstatt",
-    "location": "Ernen",
-    "duration": "5:10 h",
-    "difficulty": "Intermediate",
-    "distance": "13.31 km",
-    "image": "https://img.oastatic.com/img2/45034289/2048x2048/.jpg"
-  },
-  {
-    "name": "Turtmanntaler Aussischtsweg",
-    "location": "Turtmanntal",
-    "duration": "6:30 h",
-    "difficulty": "Difficult",
-    "distance": "12.65 km",
-    "image": "https://img.oastatic.com/img2/28190709/2048x2048/.jpg"
-  },
-  {
-    "name": "Centenary walk on the high plateau in Crans-Montana",
-    "location": "Crans-Montana",
-    "duration": "2:30 h",
-    "difficulty": "Intermediate",
-    "distance": "8.83 km",
-    "image": "https://img.oastatic.com/img2/20154266/2048x2048/.jpg"
-  },
-  {
-    "name": "Europa Trail",
-    "location": "Grächen",
-    "duration": "13:30 h",
-    "difficulty": "Difficult",
-    "distance": "33.37 km",
-    "image": "https://img.oastatic.com/img2/20519519/2048x2048/.jpg"
-  },
-  {
-    "name": "Loop from Champéry to Lacs d’Antème",
-    "location": "Champéry",
-    "duration": "6:00 h",
-    "difficulty": "Difficult",
-    "distance": "16.19 km",
-    "image": "https://img.oastatic.com/img2/27839850/2048x2048/.jpg"
-  },
-  {
-    "name": "Heidnisch Tossu",
-    "location": "Grächen",
-    "duration": "2:50 h",
-    "difficulty": "Intermediate",
-    "distance": "7.63 km",
-    "image": "https://img.oastatic.com/img2/45705679/2048x2048/.jpg"
-  },
-  {
-    "name": "From Felskinn to the Britannia hut and Plattjen",
-    "location": "Saas-Fee",
-    "duration": "2:45 h",
-    "difficulty": "Difficult",
-    "distance": "7.52 km",
-    "image": "https://img.oastatic.com/img2/29334564/2048x2048/.jpg"
-  },
-  {
-    "name": "Simplon-Sirwoltusee-Weg",
-    "location": "Simplon (Simplonpass)",
-    "duration": "5:00 h",
-    "difficulty": "Intermediate",
-    "distance": "11.29 km",
-    "image": "https://img.oastatic.com/img2/56932628/2048x2048/.jpg"
-  },
-  {
-    "name": "Bortelhütte",
-    "location": "Rosswald",
-    "duration": "3:45 h",
-    "difficulty": "Intermediate",
-    "distance": "10.98 km",
-    "image": "https://img.oastatic.com/img2/81114908/2048x2048/.jpg"
-  },
-  {
-    "name": "Chemin du Vignoble: Branson - Saillon (stage 1)",
-    "location": "Saillon",
-    "duration": "3:30 h",
-    "difficulty": "Intermediate",
-    "distance": "12.03 km",
-    "image": "https://img.oastatic.com/img2/26796355/2048x2048/.jpg"
-  },
-  {
-    "name": "Circular Hike to the Suspension Bridge in Randa (Nr. 69)",
-    "location": "Randa",
-    "duration": "4:00 h",
-    "difficulty": "Intermediate",
-    "distance": "8.62 km",
-    "image": "https://img.oastatic.com/img2/23754898/2048x2048/.jpg"
-  },
-  {
-    "name": "Hike to the glacier viewpoint from Bellwald",
-    "location": "Bellwald",
-    "duration": "2:15 h",
-    "difficulty": "Intermediate",
-    "distance": "8.90 km",
-    "image": "https://img.oastatic.com/img2/29557559/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour du Val d’Hérens: Thyon – Grande Dixence (stage 1)",
-    "location": "Thyon",
-    "duration": "5:00 h",
-    "difficulty": "Intermediate",
-    "distance": "15.95 km",
-    "image": "https://img.oastatic.com/img2/19241841/2048x2048/.jpg"
-  },
-  {
-    "name": "To the Lac de Tseuzier",
-    "location": "Anzère",
-    "duration": "5:00 h",
-    "difficulty": "Intermediate",
-    "distance": "19.69 km",
-    "image": "https://img.oastatic.com/img2/25719816/2048x2048/.jpg"
-  },
-  {
-    "name": "From Savoleyres to Lac des Vaux mountain lake",
-    "location": "Verbier",
-    "duration": "4:25 h",
-    "difficulty": "Intermediate",
-    "distance": "13.91 km",
-    "image": "https://img.oastatic.com/img2/25431250/2048x2048/.jpg"
-  },
-  {
-    "name": "ViaStockalper - Stockalperweg (Simplon Dorf -Gondo)",
-    "location": "Simplon (Simplonpass)",
-    "duration": "3:00 h",
-    "difficulty": "Easy",
-    "distance": "9.00 km",
-    "image": "https://img.oastatic.com/img2/58412001/2048x2048/.jpg"
-  },
-  {
-    "name": "Chemin des villages et hameaux d'Entremont",
-    "location": "Liddes/Vichères",
-    "duration": "3:55 h",
-    "difficulty": "Easy",
-    "distance": "13.88 km",
-    "image": "https://img.oastatic.com/img2/29018540/2048x2048/.jpg"
-  },
-  {
-    "name": "Chamois Trail",
-    "location": "Saas-Fee",
-    "duration": "2:30 h",
-    "difficulty": "Intermediate",
-    "distance": "10.32 km",
-    "image": "https://img.oastatic.com/img2/60039394/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour of the Val d'Anniviers: Vallon de Réchy - Louché mountain lake (stage 5)",
-    "location": "Vercorin",
-    "duration": "4:40 h",
-    "difficulty": "Intermediate",
-    "distance": "15.10 km",
-    "image": "https://img.oastatic.com/img2/24374505/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour du Val d’Hérens: Arolla to Evolène (stage 3)",
-    "location": "Arolla",
-    "duration": "5:10 h",
-    "difficulty": "Intermediate",
-    "distance": "17.09 km",
-    "image": "https://img.oastatic.com/img2/17121963/2048x2048/.jpg"
-  },
-  {
-    "name": "Hike to the Lac Vert (Chésery)",
-    "location": "Les Crosets",
-    "duration": "5:30 h",
-    "difficulty": "Difficult",
-    "distance": "17.23 km",
-    "image": "https://img.oastatic.com/img2/28481506/2048x2048/.jpg"
-  },
-  {
-    "name": "Edelweiss Trail (Höhbalmen) (Nr. 30)",
-    "location": "Zermatt",
-    "duration": "7:30 h",
-    "difficulty": "Difficult",
-    "distance": "20.71 km",
-    "image": "https://img.oastatic.com/img2/9528935/2048x2048/.jpg"
-  },
-  {
-    "name": "Chemin des villages d’Evolène",
-    "location": "Evolène",
-    "duration": "3:25 h",
-    "difficulty": "Easy",
-    "distance": "11.09 km",
-    "image": "https://img.oastatic.com/img2/28781187/2048x2048/.jpg"
-  },
-  {
-    "name": "Loop to the Cabane des Aiguilles Rouges and Lac Bleu",
-    "location": "Arolla",
-    "duration": "5:30 h",
-    "difficulty": "Difficult",
-    "distance": "14.01 km",
-    "image": "https://img.oastatic.com/img2/28781440/2048x2048/.jpg"
-  },
-  {
-    "name": "Geological hike to the Vieux-Emosson dam",
-    "location": "Finhaut",
-    "duration": "4:40 h",
-    "difficulty": "Difficult",
-    "distance": "12.29 km",
-    "image": "https://img.oastatic.com/img2/28071395/2048x2048/.jpg"
-  },
-  {
-    "name": "Discovering Binntal Landscape Park: Imfeld – Mässersee – Binn",
-    "location": "Binn",
-    "duration": "3:45 h",
-    "difficulty": "Intermediate",
-    "distance": "9.44 km",
-    "image": "https://img.oastatic.com/img2/17157903/2048x2048/.jpg"
-  },
-  {
-    "name": "Orny and Trient mountain huts",
-    "location": "Champex-Lac",
-    "duration": "5:40 h",
-    "difficulty": "Difficult",
-    "distance": "13.45 km",
-    "image": "https://img.oastatic.com/img2/42603547/2048x2048/.jpg"
-  },
-  {
-    "name": "Chapel trail and Bodmeri irrigation channel in Visperterminen",
-    "location": "Visperterminen",
-    "duration": "2:45 h",
-    "difficulty": "Intermediate",
-    "distance": "9.33 km",
-    "image": "https://img.oastatic.com/img2/26383947/2048x2048/.jpg"
-  },
-  {
-    "name": "Across Vallon de They to the sources of the Vièze",
-    "location": "Morgins",
-    "duration": "5:23 h",
-    "difficulty": "Intermediate",
-    "distance": "16.77 km",
-    "image": "https://img.oastatic.com/img2/25490526/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour de l'éboulement des Diablerets",
-    "location": "Les Coteaux du Soleil",
-    "duration": "2:05 h",
-    "difficulty": "Easy",
-    "distance": "6.61 km",
-    "image": "https://img.oastatic.com/img2/40826730/2048x2048/.jpg"
-  },
-  {
-    "name": "Gibidumpass",
-    "location": "Visperterminen",
-    "duration": "3:30 h",
-    "difficulty": "Easy",
-    "distance": "11.64 km",
-    "image": "https://img.oastatic.com/img2/29561224/2048x2048/.jpg"
-  },
-  {
-    "name": "Les cols du Grand-St-Bernard",
-    "location": "La Fouly",
-    "duration": "4:55 h",
-    "difficulty": "Difficult",
-    "distance": "11.74 km",
-    "image": "https://img.oastatic.com/img2/41004828/2048x2048/.jpg"
-  },
-  {
-    "name": "Glacier trail and Lämmeren mountain refuge",
-    "location": "Leukerbad",
-    "duration": "3:15 h",
-    "difficulty": "Intermediate",
-    "distance": "9.34 km",
-    "image": "https://img.oastatic.com/img2/57909150/2048x2048/.jpg"
-  },
-  {
-    "name": "Moosalp Panoramaweg",
-    "location": "Törbel",
-    "duration": "2:05 h",
-    "difficulty": "Easy",
-    "distance": "6.37 km",
-    "image": "https://img.oastatic.com/img2/56324781/2048x2048/.jpg"
-  },
-  {
-    "name": "Gommer Höhenweg: Oberwald - Münster",
-    "location": "Obergoms",
-    "duration": "4:00 h",
-    "difficulty": "Intermediate",
-    "distance": "11.91 km",
-    "image": "https://img.oastatic.com/img2/57868694/2048x2048/.jpg"
-  },
-  {
-    "name": "Sentier de Salanfe",
-    "location": "Salvan/Les Marécottes",
-    "duration": "4:20 h",
-    "difficulty": "Difficult",
-    "distance": "12.72 km",
-    "image": "https://img.oastatic.com/img2/40879765/2048x2048/.jpg"
-  },
-  {
-    "name": "Tour du Grand Chavalard",
-    "location": "Ovronnaz",
-    "duration": "5:30 h",
-    "difficulty": "Intermediate",
-    "distance": "14.76 km",
-    "image": "https://img.oastatic.com/img2/26797272/2048x2048/.jpg"
-  },
-  {
-    "name": "Roundtrip Roc Coupé – Bonavau - Champéry",
-    "location": "Champéry",
-    "duration": "4:15 h",
-    "difficulty": "Intermediate",
-    "distance": "12.09 km",
-    "image": "https://img.oastatic.com/img2/27639049/2048x2048/.jpg"
-  },
-  {
-    "name": "Galerie Défago",
-    "location": "Champéry",
-    "duration": "2:40 h",
-    "difficulty": "Easy",
-    "distance": "8.69 km",
-    "image": "https://img.oastatic.com/img2/46838024/2048x2048/.jpg"
-  },
-  {
-    "name": "Vérossaz plateau",
-    "location": "St-Maurice",
-    "duration": "3:00 h",
-    "difficulty": "Easy",
-    "distance": "9.02 km",
-    "image": "https://img.oastatic.com/img2/46786064/2048x2048/.jpg"
-  },
-  {
-    "name": "Route des Diligences",
-    "location": "Vernayaz",
-    "duration": "5:00 h",
-    "difficulty": "Intermediate",
-    "distance": "13.00 km",
-    "image": "https://img.oastatic.com/img2/28480369/2048x2048/.jpg"
-  },
-  {
-    "name": "From Saillon to Farinet footbridge",
-    "location": "Saillon",
-    "duration": "2:30 h",
-    "difficulty": "Easy",
-    "distance": "7.88 km",
-    "image": "https://img.oastatic.com/img2/46849549/2048x2048/.jpg"
-  },
-  {
-    "name": "The larches of Balavaux",
-    "location": "Nendaz",
-    "duration": "2:55 h",
-    "difficulty": "Easy",
-    "distance": "10.97 km",
-    "image": "https://img.oastatic.com/img2/25480704/2048x2048/.jpg"
-  },
-  {
-    "name": "The Vièze gorges trail",
-    "location": "Monthey",
-    "duration": "1:45 h",
-    "difficulty": "Easy",
-    "distance": "6.20 km",
-    "image": "https://img.oastatic.com/img2/46937283/2048x2048/.jpg"
-  },
-  {
-    "name": "Lötschberger Südrampe",
-    "location": "Eggerberg",
-    "duration": "3:30 h",
-    "difficulty": "Easy",
-    "distance": "10.38 km",
-    "image": "https://img.oastatic.com/img2/27764551/2048x2048/.jpg"
-  },
-  {
-    "name": "La Voie des Erables",
-    "location": "Isérables",
-    "duration": "3:30 h",
-    "difficulty": "Difficult",
-    "distance": "9.70 km",
-    "image": "https://img.oastatic.com/img2/46241085/2048x2048/.jpg"
-  }
-]
+    "image": "https://img.oastatic.com/img2/27153380/2048x2048/.jpg",
+    "description": "This historic trail takes you along the Petit Bisse and the ancient Bisse de la Tsandra in Conthey. The path is steeped in local heritage and passes through charming landscapes, including terraced vineyards and traditional Swiss countryside settings, offering a unique glimpse into the region's cultural history."
+  },
+  
+    {
+      "name": "Terraced Vineyards Trail around Martigny",
+      "location": "Martigny",
+      "duration": "1:45 h",
+      "difficulty": "Easy",
+      "distance": "6.39 km",
+      "image": "https://img.oastatic.com/img2/27348478/2048x2048/.jpg",
+      "description": "A delightful walk through terraced vineyards in the Martigny area, this easy trail offers charming views of rolling vineyards, traditional Swiss wine culture, and the lush countryside. It's perfect for a relaxed stroll and a taste of the local terroir."
+    },
+    {
+      "name": "Bettmerhorn – Hängebrücke Aspi-Titter",
+      "location": "Bettmeralp",
+      "duration": "6:55 h",
+      "difficulty": "Intermediate",
+      "distance": "19.43 km",
+      "image": "https://img.oastatic.com/img2/65526629/2048x2048/.jpg",
+      "description": "This trail links the Bettmerhorn region with the famous Hängebrücke Aspi-Titter. Hikers traverse varied alpine terrain with moderate ascents and descents, enjoying panoramic views of rugged peaks and valleys, making it a rewarding challenge in a high-altitude setting."
+    },
+    {
+      "name": "Längfluh / Saas-Fee",
+      "location": "Saas-Fee",
+      "duration": "2:15 h",
+      "difficulty": "Intermediate",
+      "distance": "6.45 km",
+      "image": "https://img.oastatic.com/img2/47628540/2048x2048/.jpg",
+      "description": "This compact yet scenic route near Saas-Fee, known as Längfluh, offers dramatic mountain views and authentic alpine charm. The trail features a balanced mix of gentle ascents and open plateaus, perfect for exploring the beauty of the Saas region."
+    },
+    {
+      "name": "Chemin d'Ossona",
+      "location": "Vernamiège",
+      "duration": "2:30 h",
+      "difficulty": "Intermediate",
+      "distance": "7.71 km",
+      "image": "https://img.oastatic.com/img2/47248863/2048x2048/.jpg",
+      "description": "Winding through picturesque landscapes in Vernamiège, the Chemin d'Ossona trail offers hikers a glimpse into traditional Swiss village life and pristine alpine scenery. Its moderate elevation gains and expansive views make it a charming and culturally rich experience."
+    },
+    {
+      "name": "Around the Mattmark reservoir in Saastal valley",
+      "location": "Saas-Almagell",
+      "duration": "2:15 h",
+      "difficulty": "Easy",
+      "distance": "8.04 km",
+      "image": "https://img.oastatic.com/img2/19194954/2048x2048/.jpg",
+      "description": "This easy loop around the Mattmark reservoir in the Saastal valley provides serene water views and gentle pathways. Ideal for a relaxed hike, the trail offers a peaceful experience amid reflective waters and the surrounding alpine landscape."
+    },
+    {
+      "name": "Sentier des Chamois",
+      "location": "Verbier",
+      "duration": "4:40 h",
+      "difficulty": "Difficult",
+      "distance": "11.55 km",
+      "image": "https://img.oastatic.com/img2/70533729/2048x2048/.jpg",
+      "description": "Named for the agile mountain chamois, this challenging route in Verbier takes hikers along rugged, steep sections interspersed with dramatic alpine vistas. The Sentier des Chamois rewards adventurers with immersive natural beauty and breathtaking high-mountain scenery."
+    },
+    {
+      "name": "Sentier du Balcon du Mont-Blanc",
+      "location": "Finhaut",
+      "duration": "3:10 h",
+      "difficulty": "Intermediate",
+      "distance": "8.41 km",
+      "image": "https://img.oastatic.com/img2/56325115/2048x2048/.jpg",
+      "description": "Perched along the Mont-Blanc Balcony in Finhaut, this trail features stunning views of the Mont-Blanc massif, surrounding glaciers, and deep valleys. It combines moderate hiking with expansive panoramas, offering a unique alpine experience."
+    },
+    {
+      "name": "Höhenweg Allmagelleralp",
+      "location": "Saas-Grund",
+      "duration": "3:15 h",
+      "difficulty": "Intermediate",
+      "distance": "11.07 km",
+      "image": "https://img.oastatic.com/img2/29657603/2048x2048/.jpg",
+      "description": "Höhenweg Allmagelleralp is a scenic ridge trail in Saas-Grund that presents panoramic views of the Saas valley and surrounding mountains. The route combines alpine meadows with rugged outcrops, providing a balanced and enriching hiking experience."
+    },
+    {
+      "name": "Magic waters experience Grächen",
+      "location": "Grächen",
+      "duration": "4:35 h",
+      "difficulty": "Easy",
+      "distance": "14.97 km",
+      "image": "https://img.oastatic.com/img2/81619922/2048x2048/.jpg",
+      "description": "This enchanting route in Grächen guides you through landscapes dotted with crystal-clear streams and reflective water features. The Magic Waters Experience is an easy, family-friendly hike that immerses you in the natural, almost magical beauty of the alpine environment."
+    },
+    {
+      "name": "From Leukerbad to Albinen via the historical Albinen ladders",
+      "location": "Leukerbad",
+      "duration": "2:00 h",
+      "difficulty": "Difficult",
+      "distance": "6.26 km",
+      "image": "https://img.oastatic.com/img2/57912109/2048x2048/.jpg",
+      "description": "This historically significant trail connects Leukerbad to Albinen using ancient ladder structures. The route is challenging, featuring steep sections and rugged terrain, while also offering a fascinating glimpse into the engineering and cultural heritage of the region."
+    },
+    {
+      "name": "Circular hike from Bettmerhorn to Bettmeralp via Märjelensee",
+      "location": "Bettmeralp",
+      "duration": "5:30 h",
+      "difficulty": "Intermediate",
+      "distance": "15.13 km",
+      "image": "https://img.oastatic.com/img2/70004561/2048x2048/.jpg",
+      "description": "This circular hike starting at Bettmerhorn and looping to Bettmeralp via Märjelensee showcases the best of alpine beauty. The trail offers diverse landscapes including tranquil lakeside views, lush meadows, and striking mountain panoramas, appealing to hikers seeking both challenge and serenity."
+    },
+    {
+      "name": "The Gries Pass mule trail",
+      "location": "Obergoms",
+      "duration": "8:00 h",
+      "difficulty": "Difficult",
+      "distance": "20.77 km",
+      "image": "https://img.oastatic.com/img2/27537623/2048x2048/.jpg",
+      "description": "A demanding trail steeped in tradition, the Gries Pass mule trail in Obergoms follows historic mule paths across rugged alpine terrain. Hikers face challenging ascents and descents while being rewarded with expansive views of high mountain passes and deep valleys."
+    },
+    {
+      "name": "Tour de la Seya",
+      "location": "Ovronnaz",
+      "duration": "2:59 h",
+      "difficulty": "Intermediate",
+      "distance": "8.10 km",
+      "image": "https://img.oastatic.com/img2/27188446/2048x2048/.jpg",
+      "description": "The Tour de la Seya in Ovronnaz is an engaging intermediate hike that traverses varied landscapes—from verdant valleys to rocky ridges. This trail offers hikers an immersive experience in the natural beauty of Valais, with charming vistas that showcase the region’s diverse terrain."
+    },
+      {
+        "name": "Chemin du Vignoble: Venthône – Leuk (stage 4)",
+        "location": "Venthône",
+        "duration": "4:00 h",
+        "difficulty": "Intermediate",
+        "distance": "12.80 km",
+        "image": "https://img.oastatic.com/img2/28481801/2048x2048/.jpg",
+        "description": "This stage of the Chemin du Vignoble leads hikers through terraced vineyards and rolling hills between Venthône and Leuk. The trail captures the region’s rich viticultural heritage, offering views of lush vineyards, rustic farmhouses, and local wineries, all set against a backdrop of the stunning Valais countryside."
+      },
+      {
+        "name": "Tour of the Val d’Anniviers: Zinal–Grimentz (stage 3)",
+        "location": "Zinal",
+        "duration": "4:30 h",
+        "difficulty": "Intermediate",
+        "distance": "14.36 km",
+        "image": "https://img.oastatic.com/img2/27579386/2048x2048/.jpg",
+        "description": "This intermediate stage of the Tour of the Val d’Anniviers connects Zinal with Grimentz, winding through diverse alpine landscapes. Hikers enjoy dramatic mountain vistas, meandering trails through verdant meadows, and the charm of traditional alpine villages, all under the watchful peaks of the Swiss Alps."
+      },
+      {
+        "name": "The Jolischlucht gorge",
+        "location": "Raron-Niedergesteln",
+        "duration": "2:45 h",
+        "difficulty": "Intermediate",
+        "distance": "7.95 km",
+        "image": "https://img.oastatic.com/img2/47946200/2048x2048/.jpg",
+        "description": "This captivating route takes you through the Jolischlucht gorge, where narrow paths and rugged terrain highlight the raw geological beauty of the area. Hikers traverse rocky passageways alongside a lively mountain stream, experiencing a unique blend of natural artistry and serene wilderness."
+      },
+      {
+        "name": "From Croix de Culet over the Col de Cou pass to Champéry",
+        "location": "Champéry",
+        "duration": "5:38 h",
+        "difficulty": "Intermediate",
+        "distance": "17.56 km",
+        "image": "https://img.oastatic.com/img2/27187431/2048x2048/.jpg",
+        "description": "This scenic route begins at Croix de Culet and crosses the impressive Col de Cou pass on the way to Champéry. The trail offers a mix of gentle ascents and panoramic alpine vistas, showcasing expansive meadows, rugged mountain ridges, and traditional alpine architecture."
+      },
+      {
+        "name": "Tour de la falaise de St-Maurice",
+        "location": "St-Maurice",
+        "duration": "2:15 h",
+        "difficulty": "Intermediate",
+        "distance": "7.29 km",
+        "image": "https://img.oastatic.com/img2/26818826/2048x2048/.jpg",
+        "description": "Encircling the dramatic cliffs of St-Maurice, this trail offers close-up views of towering rock faces and deep valleys. The moderate hike winds through rugged terrain interspersed with patches of green, providing an intimate encounter with the natural geological wonders of the region."
+      },
+      {
+        "name": "Chemin du Vignoble: Saillon to Sion (stage 2)",
+        "location": "Saillon",
+        "duration": "6:45 h",
+        "difficulty": "Intermediate",
+        "distance": "21.73 km",
+        "image": "https://img.oastatic.com/img2/18084356/2048x2048/.jpg",
+        "description": "This extensive stage of the Chemin du Vignoble takes you from Saillon to Sion, meandering through picturesque vineyards and charming villages. The trail reveals a rich blend of cultural history and natural beauty, with ancient wine cellars, terraced slopes, and expansive views that embody the spirit of the Valais wine country."
+      },
+      {
+        "name": "Autour du Mont Gond",
+        "location": "Nendaz",
+        "duration": "4:40 h",
+        "difficulty": "Intermediate",
+        "distance": "14.16 km",
+        "image": "https://img.oastatic.com/img2/62199696/2048x2048/.jpg",
+        "description": "Encircling Mont Gond near Nendaz, this trail invites hikers to explore its rugged slopes and panoramic viewpoints. The route traverses alpine meadows, rocky outcrops, and forested areas, offering spectacular vistas of surrounding mountains and deep valleys that showcase the diverse landscapes of the region."
+      },
+      {
+        "name": "Heidaweg in Visperterminen",
+        "location": "Visperterminen",
+        "duration": "3:00 h",
+        "difficulty": "Intermediate",
+        "distance": "7.91 km",
+        "image": "https://img.oastatic.com/img2/29618105/2048x2048/.jpg",
+        "description": "The Heidaweg in Visperterminen is an engaging trail that winds through vineyards and terraced fields. This intermediate route offers a glimpse into the local agricultural traditions along with sweeping valley views, making it a delightful walk through one of Valais' sunniest and most scenic regions."
+      },
+      {
+        "name": "Chemin du Vignoble: Sion to Venthône (stage 3)",
+        "location": "Sion",
+        "duration": "5:38 h",
+        "difficulty": "Intermediate",
+        "distance": "18.72 km",
+        "image": "https://img.oastatic.com/img2/29661238/2048x2048/.jpg",
+        "description": "This stage of the Chemin du Vignoble guides hikers from Sion back to Venthône, retracing a route rich in viticultural tradition. The 18.72 km path winds through scenic vineyards, past historic wineries, and across terraced landscapes, offering a culturally enriching journey through the heart of Valais wine country."
+      },
+      {
+        "name": "Sentier viticole / Rebweg",
+        "location": "Sierre",
+        "duration": "2:00 h",
+        "difficulty": "Easy",
+        "distance": "7.53 km",
+        "image": "https://img.oastatic.com/img2/28449297/2048x2048/.jpg",
+        "description": "Also known as the Rebweg, this easy trail in Sierre meanders through lush vineyards and scenic wine-growing landscapes. Perfect for a leisurely walk, the path provides an intimate look at the region’s agricultural life and offers relaxing views of rolling grapevines and peaceful countryside."
+      },
+      {
+        "name": "Laggintal loop in the Simplon area",
+        "location": "Simplon (Simplonpass)",
+        "duration": "5:30 h",
+        "difficulty": "Difficult",
+        "distance": "14.58 km",
+        "image": "https://img.oastatic.com/img2/60345019/2048x2048/.jpg",
+        "description": "This challenging loop in the Simplon area takes you through the rugged Laggintal valley near Simplonpass. Hikers encounter steep ascents, technical terrain, and breathtaking alpine panoramas, with expansive views over towering peaks and deep valleys, ideal for experienced mountain adventurers."
+      },
+      {
+        "name": "Ascent of the Torrenthorn",
+        "location": "Leukerbad",
+        "duration": "3:00 h",
+        "difficulty": "Intermediate",
+        "distance": "6.84 km",
+        "image": "https://img.oastatic.com/img2/57909016/2048x2048/.jpg",
+        "description": "The Ascent of the Torrenthorn near Leukerbad is a brisk, intermediate hike that features steady inclines and rewarding vistas. As you climb, expansive views of surrounding glaciers and rugged peaks unfold, offering an invigorating alpine experience in a compact route."
+      },
+      {
+        "name": "Bhutanbrücke",
+        "location": "Turtmann-Unterems",
+        "duration": "3:10 h",
+        "difficulty": "Easy",
+        "distance": "10.48 km",
+        "image": "https://img.oastatic.com/img2/28416918/2048x2048/.jpg",
+        "description": "Bhutanbrücke is an easy trail in Turtmann-Unterems featuring a charming suspension bridge that spans a picturesque valley. The route offers gentle walking paths through forested areas and alongside clear streams, making it a perfect, relaxed outing in the tranquil Swiss countryside."
+      },
+      
+        {
+          "name": "Alpine hike: UNESCO high-altitude trail from Bettmerhorn to Eggishorn",
+          "location": "Bettmeralp",
+          "duration": "3:00 h",
+          "difficulty": "Intermediate",
+          "distance": "3.04 km",
+          "image": "https://img.oastatic.com/img2/82420959/2048x2048/.jpg",
+          "description": "This UNESCO high-altitude trail offers a compact yet unforgettable alpine adventure from Bettmerhorn to Eggishorn. Hikers experience breathtaking panoramic views, rugged terrain, and a unique glimpse into the high mountain environment of Valais, making it a must-do for those seeking a quick alpine escape."
+        },
+        {
+          "name": "Across the Follatères nature reserve to Fully",
+          "location": "Fully",
+          "duration": "2:00 h",
+          "difficulty": "Intermediate",
+          "distance": "7.75 km",
+          "image": "https://img.oastatic.com/img2/25429897/2048x2048/.jpg",
+          "description": "This trail takes you through the pristine Follatères nature reserve towards Fully, showcasing a mosaic of wildflower meadows, dense forests, and rugged outcrops. With its intermediate difficulty, the route offers a peaceful immersion into the natural diversity of Valais."
+        },
+        {
+          "name": "From the Grimsel Pass up to the Sidelhorn",
+          "location": "Obergoms",
+          "duration": "3:30 h",
+          "difficulty": "Intermediate",
+          "distance": "8.56 km",
+          "image": "https://img.oastatic.com/img2/28093022/2048x2048/.jpg",
+          "description": "Beginning at the renowned Grimsel Pass and rising to the Sidelhorn, this trail features rugged alpine paths, sweeping views, and a refreshing mountain atmosphere. Ideal for intermediate hikers, the route blends rocky landscapes with alpine meadows for a memorable high-altitude experience."
+        },
+        {
+          "name": "Lauchernalp - Restipass - Rinderhütte (Leukerbad)",
+          "location": "Lötschental",
+          "duration": "5:30 h",
+          "difficulty": "Intermediate",
+          "distance": "14.84 km",
+          "image": "https://img.oastatic.com/img2/4215906/2048x2048/.jpg",
+          "description": "This trail in the Lötschental region links Lauchernalp, Restipass, and the Rinderhütte near Leukerbad. Hikers traverse a varied landscape of steep climbs, gentle descents, and scenic valleys, all framed by the traditional alpine charm and rugged beauty of Valais."
+        },
+        {
+          "name": "Chemin des Contrées",
+          "location": "Crans-Montana",
+          "duration": "4:25 h",
+          "difficulty": "Intermediate",
+          "distance": "14.82 km",
+          "image": "https://img.oastatic.com/img2/78472645/2048x2048/.jpg",
+          "description": "The Chemin des Contrées invites hikers in Crans-Montana to explore a rich tapestry of alpine landscapes. With its moderate terrain, the route features lush meadows, rocky outcrops, and sweeping panoramic views, creating an engaging blend of natural beauty and local culture."
+        },
+        {
+          "name": "Mark Twain Trail (Nr. 18)",
+          "location": "Zermatt",
+          "duration": "50 m",
+          "difficulty": "Intermediate",
+          "distance": "3.38 km",
+          "image": "https://img.oastatic.com/img2/9412889/2048x2048/.jpg",
+          "description": "This brief yet captivating trail in Zermatt, named after the famed author, offers an accessible hike through stunning alpine scenery. In just 50 minutes, hikers are treated to iconic mountain views and a taste of the region’s unique blend of history and natural splendor."
+        },
+        {
+          "name": "7 lakes hiking Trail",
+          "location": "Bellwald",
+          "duration": "3:00 h",
+          "difficulty": "Intermediate",
+          "distance": "8.14 km",
+          "image": "https://img.oastatic.com/img2/64030699/2048x2048/.jpg",
+          "description": "This picturesque trail in Bellwald leads hikers on a journey past seven enchanting alpine lakes. With each lake offering its own reflection of the surrounding peaks, the route provides a serene and engaging intermediate hike that captures the essence of Valais' natural beauty."
+        },
+        {
+          "name": "Tour du Val d’Hérens: Evolène to Cabane Becs de Bosson (stage 4)",
+          "location": "Evolène",
+          "duration": "5:30 h",
+          "difficulty": "Difficult",
+          "distance": "10.84 km",
+          "image": "https://img.oastatic.com/img2/27639218/2048x2048/.jpg",
+          "description": "In this challenging stage of the Tour du Val d’Hérens, hikers travel from Evolène to Cabane Becs de Bosson. The trail offers steep ascents, rugged terrain, and dramatic alpine panoramas, rewarding those who take on its demanding path with unforgettable views of the Valais mountains."
+        },
+        {
+          "name": "From Cabane Brunet to Cabane FXB Panossière",
+          "location": "Bruson",
+          "duration": "3:00 h",
+          "difficulty": "Intermediate",
+          "distance": "7.00 km",
+          "image": "https://img.oastatic.com/img2/65527180/2048x2048/.jpg",
+          "description": "This intermediate trail connects two mountain refuges, offering a blend of comfort and adventure. The route from Cabane Brunet to Cabane FXB Panossière is framed by rugged alpine scenery, open meadows, and a sense of traditional mountain hospitality, making it a favorite among seasoned hikers."
+        },
+        {
+          "name": "Sentier des alpages de Vionnaz",
+          "location": "Torgon",
+          "duration": "4:30 h",
+          "difficulty": "Easy",
+          "distance": "13.49 km",
+          "image": "https://img.oastatic.com/img2/63981040/2048x2048/.jpg",
+          "description": "This gentle trail meanders through the traditional alpine pastures of Vionnaz in Torgon. Ideal for casual hikers and families, the route offers expansive views of grazing lands, rustic farmsteads, and the timeless charm of Valais' pastoral landscapes."
+        },
+        {
+          "name": "Lac des Vaux",
+          "location": "Verbier",
+          "duration": "3:00 h",
+          "difficulty": "Intermediate",
+          "distance": "8.76 km",
+          "image": "https://img.oastatic.com/img2/46780341/2048x2048/.jpg",
+          "description": "The Lac des Vaux trail near Verbier takes hikers around a serene alpine lake, where crystal-clear waters mirror the surrounding peaks. This intermediate hike combines wooded paths with open vistas, offering a perfect balance between relaxation and moderate physical challenge."
+        },
+        {
+          "name": "Cultural pathway Dala-Raspille",
+          "location": "Leukerbad",
+          "duration": "3:00 h",
+          "difficulty": "Intermediate",
+          "distance": "16.23 km",
+          "image": "https://img.oastatic.com/img2/28449318/2048x2048/.jpg",
+          "description": "This cultural pathway in Leukerbad guides hikers through an engaging blend of local heritage and stunning alpine scenery. Marked by traditional landmarks and scenic overlooks, the trail offers a unique perspective on the region's history, culture, and natural beauty."
+        },
+        {
+          "name": "Riederfurka – Knebelbrücken Trail",
+          "location": "Riederalp",
+          "duration": "3:45 h",
+          "difficulty": "Intermediate",
+          "distance": "9.59 km",
+          "image": "https://img.oastatic.com/img2/61010440/2048x2048/.jpg",
+          "description": "Set in the heart of Riederalp, this intermediate trail features rugged pathways, ancient stone bridges, and breathtaking mountain views. The Riederfurka – Knebelbrücken Trail is perfect for hikers seeking a blend of historical intrigue and natural splendor in a dynamic alpine setting."
+        },
+        {
+          "name": "Cleuson Dam",
+          "location": "Nendaz",
+          "duration": "3:10 h",
+          "difficulty": "Intermediate",
+          "distance": "11.60 km",
+          "image": "https://img.oastatic.com/img2/52665608/2048x2048/.jpg",
+          "description": "This trail around Cleuson Dam in Nendaz offers a fascinating blend of engineering marvel and natural beauty. Hikers enjoy expansive views of the impressive dam structure, the tranquil reservoir, and the surrounding alpine landscape, making it a unique and rewarding intermediate hike."
+        },
+        
+          {
+            "name": "Tour des lapiaz de Zanfleuron",
+            "location": "Les Coteaux du Soleil",
+            "duration": "3:00 h",
+            "difficulty": "Difficult",
+            "distance": "9.76 km",
+            "image": "https://img.oastatic.com/img2/28093122/2048x2048/.jpg",
+            "description": "This challenging hike takes you through the intriguing lapiaz landscapes around Zanfleuron. The trail winds over rocky scree slopes and offers impressive views of rugged terrain juxtaposed with pockets of alpine vegetation. Ideal for experienced hikers, it provides a unique exploration of the geologically fascinating area of Les Coteaux du Soleil."
+          },
+          {
+            "name": "Hike from Belalp to Riederalp via the suspension bridge",
+            "location": "Blatten Belalp",
+            "duration": "4:30 h",
+            "difficulty": "Intermediate",
+            "distance": "11.43 km",
+            "image": "https://img.oastatic.com/img2/26770688/2048x2048/.jpg",
+            "description": "This scenic hike connects Belalp to Riederalp with a highlight being the striking suspension bridge that spans a deep valley. The route meanders through alpine meadows and forested slopes, offering panoramic views of surrounding peaks and a taste of the region’s adventurous spirit."
+          },
+          {
+            "name": "Sentier des bouquetins",
+            "location": "Hérémence",
+            "duration": "3:20 h",
+            "difficulty": "Intermediate",
+            "distance": "8.64 km",
+            "image": "https://img.oastatic.com/img2/17159704/2048x2048/.jpg",
+            "description": "Named after the agile mountain goats, this trail in Hérémence guides hikers through rugged alpine terrain where wildlife sightings are common. Enjoy wildflower meadows, rocky outcrops, and expansive views that capture the essence of the high-altitude Valais landscape."
+          },
+          {
+            "name": "Marmot Trail (Nr. 8)",
+            "location": "Zermatt",
+            "duration": "1:10 h",
+            "difficulty": "Intermediate",
+            "distance": "3.79 km",
+            "image": "https://img.oastatic.com/img2/8747286/2048x2048/.jpg",
+            "description": "A short yet delightful route in the heart of Zermatt, the Marmot Trail offers an intimate glimpse into the lives of these iconic alpine creatures. The path meanders through scenic surroundings, providing charming views of rugged peaks and a peaceful alpine ambiance."
+          },
+          {
+            "name": "Over the Raspille",
+            "location": "Albinen",
+            "duration": "3:15 h",
+            "difficulty": "Intermediate",
+            "distance": "10.69 km",
+            "image": "https://img.oastatic.com/img2/56325367/2048x2048/.jpg",
+            "description": "This intermediate trail leads you over the Raspille, a landscape celebrated for its rugged beauty and expansive views. Hikers experience a mix of rocky ascents and gentle descents, with panoramic scenes of alpine meadows and distant peaks marking the journey."
+          },
+          {
+            "name": "Tour of the Val d'Anniviers : the five 4,000 meter peak hike (stage 2)",
+            "location": "St-Luc",
+            "duration": "4:35 h",
+            "difficulty": "Intermediate",
+            "distance": "15.68 km",
+            "image": "https://img.oastatic.com/img2/29558978/2048x2048/.jpg",
+            "description": "A highlight of the Val d'Anniviers tour, this stage challenges hikers to traverse paths that skirt five majestic 4,000-meter peaks. Starting in St-Luc, the route offers dramatic high-altitude landscapes, steep passes, and awe-inspiring panoramic views that truly encapsulate the grandeur of the Alps."
+          },
+          {
+            "name": "Massaweg (Massa Trail) from Blatten to Mörel",
+            "location": "Blatten Belalp",
+            "duration": "3:00 h",
+            "difficulty": "Intermediate",
+            "distance": "7.99 km",
+            "image": "https://img.oastatic.com/img2/27011806/2048x2048/.jpg",
+            "description": "Connecting the charming villages of Blatten and Mörel, the Massaweg trail offers an intermediate hike filled with local history and natural splendor. Meandering through verdant valleys and alpine meadows, this route provides picturesque views and a gentle immersion into the region’s serene landscape."
+          },
+          {
+            "name": "Tour of the Val d’Anniviers: Pontis - Chandolin - St-Luc (stage 1)",
+            "location": "Vercorin",
+            "duration": "4:00 h",
+            "difficulty": "Intermediate",
+            "distance": "9.33 km",
+            "image": "https://img.oastatic.com/img2/28189324/2048x2048/.jpg",
+            "description": "This introductory stage of the Val d’Anniviers tour leads you from Pontis through Chandolin to St-Luc. The trail is dotted with traditional alpine architecture and lush meadows, offering expansive mountain vistas and a delightful insight into the diverse beauty of the region."
+          },
+          {
+            "name": "From Visperterminen to the Simplon Pass via the Nanztal valley",
+            "location": "Visperterminen",
+            "duration": "5:00 h",
+            "difficulty": "Difficult",
+            "distance": "18.69 km",
+            "image": "https://img.oastatic.com/img2/40798303/2048x2048/.jpg",
+            "description": "A demanding journey through the Nanztal valley, this trail leads you from Visperterminen to the iconic Simplon Pass. Expect steep ascents, rugged terrain, and sweeping views of deep valleys and towering peaks, all of which highlight the untamed beauty of the alpine wilderness."
+          },
+          {
+            "name": "5 Lakes Walk (Nr. 11)",
+            "location": "Zermatt",
+            "duration": "2:30 h",
+            "difficulty": "Intermediate",
+            "distance": "9.76 km",
+            "image": "https://img.oastatic.com/img2/24516005/2048x2048/.jpg",
+            "description": "This enchanting walk in Zermatt leads you past five pristine alpine lakes, each reflecting the surrounding snowy peaks. The trail is perfect for intermediate hikers, offering serene waterscapes, lush vegetation, and panoramic mountain views that epitomize the charm of the Swiss Alps."
+          },
+          {
+            "name": "Twingischlucht",
+            "location": "Binn",
+            "duration": "3:45 h",
+            "difficulty": "Easy",
+            "distance": "12.97 km",
+            "image": "https://img.oastatic.com/img2/26770347/2048x2048/.jpg",
+            "description": "An easy and scenic route in Binn, the Twingischlucht trail guides you through a dramatic gorge characterized by towering rock walls and cascading waters. The path provides a tranquil escape into nature, perfect for a leisurely walk amidst unique geological formations."
+          },
+          {
+            "name": "Binntal Schaplersee-Weg",
+            "location": "Binn",
+            "duration": "3:25 h",
+            "difficulty": "Intermediate",
+            "distance": "7.86 km",
+            "image": "https://img.oastatic.com/img2/62202211/2048x2048/.jpg",
+            "description": "This scenic trail in Binn follows the shoreline of Schaplersee, a serene alpine lake set against a backdrop of rugged peaks. The route offers a mix of forested paths and open meadows, providing an engaging intermediate hike that captures the peaceful essence of the region."
+          },
+          {
+            "name": "Brudelhorn",
+            "location": "Münster",
+            "duration": "6:00 h",
+            "difficulty": "Difficult",
+            "distance": "14.49 km",
+            "image": "https://img.oastatic.com/img2/29186588/2048x2048/.jpg",
+            "description": "The Brudelhorn trail in Münster is a demanding hike designed for seasoned adventurers. With steep ascents, rugged terrain, and expansive panoramic views of high peaks and deep valleys, this route offers a raw and immersive alpine experience that epitomizes the wild beauty of Valais."
+          },
+          {
+            "name": "Crossing the Pfyn Forest",
+            "location": "Sierre",
+            "duration": "3:10 h",
+            "difficulty": "Intermediate",
+            "distance": "11.72 km",
+            "image": "https://img.oastatic.com/img2/67941037/2048x2048/.jpg",
+            "description": "Immerse yourself in the tranquility of the ancient Pfyn Forest with this intermediate trail in Sierre. Shaded woodland paths intersperse with sunlit clearings, revealing a rich tapestry of biodiversity and providing a cool, peaceful respite from the alpine sun."
+          },
+          {
+            "name": "Sentier des Sens La Tzoumaz (Trail of the senses)",
+            "location": "La Tzoumaz",
+            "duration": "1:30 h",
+            "difficulty": "Easy",
+            "distance": "5.50 km",
+            "image": "https://img.oastatic.com/img2/25441878/2048x2048/.jpg",
+            "description": "Designed to engage all your senses, this gentle trail in La Tzoumaz is perfect for a short, immersive hike. Informative panels, aromatic alpine flora, and carefully curated viewpoints invite you to explore the natural and cultural heritage of the region in a relaxed, easy walk."
+          },
+          
+            {
+              "name": "Hike around Tseuzier lake.",
+              "location": "Anzère",
+              "duration": "1:30 h",
+              "difficulty": "Easy",
+              "distance": "4.63 km",
+              "image": "https://img.oastatic.com/img2/44216852/2048x2048/.jpg",
+              "description": "This gentle hike around Tseuzier Lake offers an easy walk for families and casual explorers. The trail meanders along the lake’s edge in Anzère, showcasing clear waters, tranquil surroundings, and lovely alpine views, making it a perfect short nature escape."
+            },
+            {
+              "name": "Chemin du Lac de Taney",
+              "location": "Vouvry",
+              "duration": "3:05 h",
+              "difficulty": "Intermediate",
+              "distance": "8.59 km",
+              "image": "https://img.oastatic.com/img2/29334404/2048x2048/.jpg",
+              "description": "This scenic trail along Taney Lake in Vouvry takes hikers on a moderate journey through picturesque alpine landscapes. With stunning views of turquoise waters, surrounding mountains, and lush vegetation, it is ideal for nature lovers seeking a peaceful hike."
+            },
+            {
+              "name": "Thermal Canyon Walk",
+              "location": "Leukerbad",
+              "duration": "1:30 h",
+              "difficulty": "Intermediate",
+              "distance": "2.83 km",
+              "image": "https://img.oastatic.com/img2/57925975/2048x2048/.jpg",
+              "description": "In Leukerbad, this short yet intriguing walk leads you through a unique thermal canyon. Experience bubbling thermal waters, impressive rock formations, and gently winding paths that create an engaging blend of nature and relaxation."
+            },
+            {
+              "name": "Tour du Lac de Moiry",
+              "location": "Grimentz",
+              "duration": "4:35 h",
+              "difficulty": "Intermediate",
+              "distance": "13.36 km",
+              "image": "https://img.oastatic.com/img2/27188931/2048x2048/.jpg",
+              "description": "This intermediate loop around Lac de Moiry in Grimentz offers breathtaking reflections of alpine peaks in the clear lake waters. The trail features vibrant alpine meadows and dramatic rock formations, making it a favorite among nature enthusiasts."
+            },
+            {
+              "name": "Stoneman Glaciara Hike",
+              "location": "Fiesch",
+              "duration": "22:35 h",
+              "difficulty": "Difficult",
+              "distance": "63.37 km",
+              "image": "https://img.oastatic.com/img2/74909790/2048x2048/.jpg",
+              "description": "An epic alpine adventure, the Stoneman Glaciara Hike in Fiesch spans over 63 km and requires more than 22 hours of trekking. This grueling route traverses glaciated terrain, rugged mountain passes, and vast snowfields, making it suitable only for the most experienced and well-prepared adventurers."
+            },
+            {
+              "name": "Tour des Alpages",
+              "location": "Anzère",
+              "duration": "4:50 h",
+              "difficulty": "Intermediate",
+              "distance": "16.59 km",
+              "image": "https://img.oastatic.com/img2/41017598/2048x2048/.jpg",
+              "description": "The Tour des Alpages in Anzère is an intermediate trail that guides you through picturesque alpine pastures. Enjoy expansive views of lush meadows, grazing livestock, and traditional mountain huts as you explore the high alpine landscape and soak in the local cultural heritage."
+            },
+            {
+              "name": "Ibex Trail and ascent to the Mällig",
+              "location": "Saas-Fee",
+              "duration": "4:15 h",
+              "difficulty": "Intermediate",
+              "distance": "10.12 km",
+              "image": "https://img.oastatic.com/img2/29661573/2048x2048/.jpg",
+              "description": "This intermediate trail in Saas-Fee, known as the Ibex Trail, features a steady ascent to the Mällig. With opportunities to spot ibex along the way and panoramic views of towering peaks and alpine meadows, it offers a delightful blend of wildlife observation and scenic mountain hiking."
+            },
+            {
+              "name": "Chäserstatt",
+              "location": "Ernen",
+              "duration": "5:10 h",
+              "difficulty": "Intermediate",
+              "distance": "13.31 km",
+              "image": "https://img.oastatic.com/img2/45034289/2048x2048/.jpg",
+              "description": "The Chäserstatt trail near Ernen is an intermediate hike that traverses diverse alpine landscapes. With sweeping panoramic views, varied terrain, and lush meadows, the route offers an immersive experience of the Valais countryside, perfect for those seeking a mix of challenge and natural beauty."
+            },
+            {
+              "name": "Turtmanntaler Aussischtsweg",
+              "location": "Turtmanntal",
+              "duration": "6:30 h",
+              "difficulty": "Difficult",
+              "distance": "12.65 km",
+              "image": "https://img.oastatic.com/img2/28190709/2048x2048/.jpg",
+              "description": "This challenging route in the Turtmanntal area, known as the Turtmanntaler Aussischtsweg, traverses rugged terrain and steep gradients. Hikers are rewarded with expansive vistas of deep valleys and towering mountains, making it an unforgettable journey for experienced adventurers."
+            },
+            {
+              "name": "Centenary walk on the high plateau in Crans-Montana",
+              "location": "Crans-Montana",
+              "duration": "2:30 h",
+              "difficulty": "Intermediate",
+              "distance": "8.83 km",
+              "image": "https://img.oastatic.com/img2/20154266/2048x2048/.jpg",
+              "description": "This centenary walk on the high plateau in Crans-Montana offers an intermediate trek across historic terrain. Enjoy gentle slopes, panoramic views of surrounding peaks, and insights into the region's cultural past as you traverse this scenic, elevated landscape."
+            },
+            {
+              "name": "Europa Trail",
+              "location": "Grächen",
+              "duration": "13:30 h",
+              "difficulty": "Difficult",
+              "distance": "33.37 km",
+              "image": "https://img.oastatic.com/img2/20519519/2048x2048/.jpg",
+              "description": "The Europa Trail in Grächen is a formidable long-distance hike spanning over 33 km and taking more than 13 hours. Challenging terrain, steep ascents, and continuous rugged landscapes reward determined hikers with vast alpine panoramas and an unmatched sense of achievement."
+            },
+            {
+              "name": "Loop from Champéry to Lacs d’Antème",
+              "location": "Champéry",
+              "duration": "6:00 h",
+              "difficulty": "Difficult",
+              "distance": "16.19 km",
+              "image": "https://img.oastatic.com/img2/27839850/2048x2048/.jpg",
+              "description": "This demanding loop trail from Champéry to Lacs d’Antème navigates rugged terrain and steep inclines. Hikers are treated to breathtaking views of alpine lakes, rocky ridges, and lush valleys, making it an ideal choice for those seeking a challenging and rewarding adventure."
+            },
+            {
+              "name": "Heidnisch Tossu",
+              "location": "Grächen",
+              "duration": "2:50 h",
+              "difficulty": "Intermediate",
+              "distance": "7.63 km",
+              "image": "https://img.oastatic.com/img2/45705679/2048x2048/.jpg",
+              "description": "The Heidnisch Tossu trail in Grächen is an engaging intermediate hike that traverses varied alpine terrain. With gentle ascents, charming forest paths, and scenic overlooks, this route offers a delightful escape into the natural beauty of the Valais region."
+            },
+            
+              {
+                "name": "From Felskinn to the Britannia hut and Plattjen",
+                "location": "Saas-Fee",
+                "duration": "2:45 h",
+                "difficulty": "Difficult",
+                "distance": "7.52 km",
+                "image": "https://img.oastatic.com/img2/29334564/2048x2048/.jpg",
+                "description": "This challenging alpine route in Saas-Fee takes you from Felskinn to the Britannia hut and on to Plattjen. With steep ascents and rugged terrain, hikers are rewarded with dramatic panoramic views of snow-capped peaks and glacial landscapes. Ideal for experienced adventurers, it offers a true test of endurance and alpine skill."
+              },
+              {
+                "name": "Simplon-Sirwoltusee-Weg",
+                "location": "Simplon (Simplonpass)",
+                "duration": "5:00 h",
+                "difficulty": "Intermediate",
+                "distance": "11.29 km",
+                "image": "https://img.oastatic.com/img2/56932628/2048x2048/.jpg",
+                "description": "This scenic trail from the Simplon Pass leads to the serene Sirwoltusee. The route traverses a diverse alpine landscape of rocky paths, gentle slopes, and lush meadows. Hikers enjoy expansive views of surrounding peaks and the tranquil beauty of a mountain lake, making it a rewarding intermediate adventure."
+              },
+              {
+                "name": "Bortelhütte",
+                "location": "Rosswald",
+                "duration": "3:45 h",
+                "difficulty": "Intermediate",
+                "distance": "10.98 km",
+                "image": "https://img.oastatic.com/img2/81114908/2048x2048/.jpg",
+                "description": "This intermediate route in Rosswald leads to the Bortelhütte, a welcoming mountain refuge. The trail meanders through a mix of forested paths and open alpine pastures, offering picturesque views of rugged peaks and valleys. It provides a quintessential alpine experience for nature lovers."
+              },
+              {
+                "name": "Chemin du Vignoble: Branson - Saillon (stage 1)",
+                "location": "Saillon",
+                "duration": "3:30 h",
+                "difficulty": "Intermediate",
+                "distance": "12.03 km",
+                "image": "https://img.oastatic.com/img2/26796355/2048x2048/.jpg",
+                "description": "This stage of the Chemin du Vignoble takes you from Branson to Saillon, showcasing the region’s rich viticultural heritage. The trail winds through terraced vineyards and charming villages, offering scenic rural landscapes and gentle terrain that merge cultural history with natural beauty."
+              },
+              {
+                "name": "Circular Hike to the Suspension Bridge in Randa (Nr. 69)",
+                "location": "Randa",
+                "duration": "4:00 h",
+                "difficulty": "Intermediate",
+                "distance": "8.62 km",
+                "image": "https://img.oastatic.com/img2/23754898/2048x2048/.jpg",
+                "description": "This engaging circular hike in Randa highlights a striking suspension bridge that serves as the centerpiece of the route. Set against dramatic alpine scenery, the trail features a mix of forested paths and exposed ridges, offering breathtaking views of the valley and surrounding peaks."
+              },
+              {
+                "name": "Hike to the glacier viewpoint from Bellwald",
+                "location": "Bellwald",
+                "duration": "2:15 h",
+                "difficulty": "Intermediate",
+                "distance": "8.90 km",
+                "image": "https://img.oastatic.com/img2/29557559/2048x2048/.jpg",
+                "description": "Embark on this intermediate hike from Bellwald to reach a spectacular glacier viewpoint. The trail combines gentle ascents with rugged alpine terrain, culminating in expansive views of glacial formations and towering peaks, perfect for those eager to experience close-up glacial landscapes."
+              },
+              {
+                "name": "Tour du Val d’Hérens: Thyon – Grande Dixence (stage 1)",
+                "location": "Thyon",
+                "duration": "5:00 h",
+                "difficulty": "Intermediate",
+                "distance": "15.95 km",
+                "image": "https://img.oastatic.com/img2/19241841/2048x2048/.jpg",
+                "description": "As the opening stage of the Tour du Val d’Hérens, this route from Thyon to the Grande Dixence dam offers an intriguing blend of natural beauty and impressive engineering. Hikers traverse alpine meadows, rugged passes, and enjoy sweeping views of the dam and surrounding peaks, making it a memorable journey."
+              },
+              {
+                "name": "To the Lac de Tseuzier",
+                "location": "Anzère",
+                "duration": "5:00 h",
+                "difficulty": "Intermediate",
+                "distance": "19.69 km",
+                "image": "https://img.oastatic.com/img2/25719816/2048x2048/.jpg",
+                "description": "This extended intermediate trail in Anzère leads you to the picturesque Lac de Tseuzier. The 19.69 km route unfolds through varied alpine landscapes—from dense forests to open meadows—culminating at the tranquil shores of a crystal-clear mountain lake, offering a serene escape into nature."
+              },
+              {
+                "name": "From Savoleyres to Lac des Vaux mountain lake",
+                "location": "Verbier",
+                "duration": "4:25 h",
+                "difficulty": "Intermediate",
+                "distance": "13.91 km",
+                "image": "https://img.oastatic.com/img2/25431250/2048x2048/.jpg",
+                "description": "This intermediate hike in Verbier takes you from the Savoleyres area to the serene Lac des Vaux mountain lake. Featuring gentle climbs, verdant alpine meadows, and panoramic views of rugged peaks, the trail offers a peaceful journey through some of the region’s most captivating landscapes."
+              },
+              {
+                "name": "ViaStockalper - Stockalperweg (Simplon Dorf -Gondo)",
+                "location": "Simplon (Simplonpass)",
+                "duration": "3:00 h",
+                "difficulty": "Easy",
+                "distance": "9.00 km",
+                "image": "https://img.oastatic.com/img2/58412001/2048x2048/.jpg",
+                "description": "Following the historic ViaStockalper, this easy trail links Simplon Dorf with Gondo. The route is characterized by gentle terrain, scenic rural landscapes, and a rich historical backdrop that reflects the cultural heritage of the Simplon region, making it perfect for a leisurely stroll."
+              },
+              {
+                "name": "Chemin des villages et hameaux d'Entremont",
+                "location": "Liddes/Vichères",
+                "duration": "3:55 h",
+                "difficulty": "Easy",
+                "distance": "13.88 km",
+                "image": "https://img.oastatic.com/img2/29018540/2048x2048/.jpg",
+                "description": "This gentle pathway meanders through the charming villages and hamlets of Entremont. Hikers experience traditional Swiss rural life along scenic routes dotted with historic architecture and pastoral landscapes, offering a peaceful and culturally rich journey."
+              },
+              {
+                "name": "Chamois Trail",
+                "location": "Saas-Fee",
+                "duration": "2:30 h",
+                "difficulty": "Intermediate",
+                "distance": "10.32 km",
+                "image": "https://img.oastatic.com/img2/60039394/2048x2048/.jpg",
+                "description": "The Chamois Trail in Saas-Fee offers an intermediate hiking experience where encounters with agile chamois are common. The route features a blend of rugged terrain and gentle alpine meadows, providing stunning panoramic views and a true taste of the high mountain environment."
+              },
+              {
+                "name": "Tour of the Val d'Anniviers: Vallon de Réchy - Louché mountain lake (stage 5)",
+                "location": "Vercorin",
+                "duration": "4:40 h",
+                "difficulty": "Intermediate",
+                "distance": "15.10 km",
+                "image": "https://img.oastatic.com/img2/24374505/2048x2048/.jpg",
+                "description": "In the final stage of the Tour of the Val d'Anniviers, hikers travel from the Vallon de Réchy to the serene Louché mountain lake. Over 15.10 km, the trail offers a mix of gentle slopes and dramatic alpine panoramas, culminating in the tranquil beauty of a high-altitude lake—a perfect end to a diverse mountain tour."
+              },
+  
+              {
+                "name": "Tour du Val d’Hérens: Arolla to Evolène (stage 3)",
+                "location": "Arolla",
+                "duration": "5:10 h",
+                "difficulty": "Intermediate",
+                "distance": "17.09 km",
+                "image": "https://img.oastatic.com/img2/17121963/2048x2048/.jpg",
+                "allTrailsUrl": "https://www.alltrails.com/trail/switzerland/valais/tour-du-val-dherens-arolla-to-evolene-stage-3"
+              },
+                {
+                  "name": "Hike to the Lac Vert (Chésery)",
+                  "location": "Les Crosets",
+                  "duration": "5:30 h",
+                  "difficulty": "Difficult",
+                  "distance": "17.23 km",
+                  "image": "https://img.oastatic.com/img2/28481506/2048x2048/.jpg",
+                  "description": "This challenging hike from Les Crosets leads to the striking Lac Vert near Chésery. The route features steep ascents, rugged terrain, and breathtaking views over the deep green waters of the lake, framed by towering alpine peaks and pristine mountain landscapes."
+                },
+                {
+                  "name": "Edelweiss Trail (Höhbalmen) (Nr. 30)",
+                  "location": "Zermatt",
+                  "duration": "7:30 h",
+                  "difficulty": "Difficult",
+                  "distance": "20.71 km",
+                  "image": "https://img.oastatic.com/img2/9528935/2048x2048/.jpg",
+              
+                  "description": "The Edelweiss Trail in Zermatt is a challenging long-distance route that winds through high alpine pastures known as Höhbalmen. With its demanding terrain and extended duration, the trail offers stunning panoramic views of snow-capped peaks and abundant alpine flora, including the iconic edelweiss."
+                },
+                {
+                  "name": "Chemin des villages d’Evolène",
+                  "location": "Evolène",
+                  "duration": "3:25 h",
+                  "difficulty": "Easy",
+                  "distance": "11.09 km",
+                  "image": "https://img.oastatic.com/img2/28781187/2048x2048/.jpg",
+                  "description": "This easy walk through Evolène takes hikers through charming villages and traditional hamlets. The route showcases quaint Swiss architecture, lush meadows, and scenic views of the surrounding mountains, offering an immersive cultural experience in the heart of the Valais region."
+                },
+                {
+                  "name": "Loop to the Cabane des Aiguilles Rouges and Lac Bleu",
+                  "location": "Arolla",
+                  "duration": "5:30 h",
+                  "difficulty": "Difficult",
+                  "distance": "14.01 km",
+                  "image": "https://img.oastatic.com/img2/28781440/2048x2048/.jpg",
+                  "description": "This demanding loop from Arolla takes hikers to the picturesque Cabane des Aiguilles Rouges and the striking Lac Bleu. The route combines steep climbs, rugged alpine paths, and dramatic views of glacial lakes and jagged peaks, challenging even seasoned adventurers."
+                },
+                {
+                  "name": "Geological hike to the Vieux-Emosson dam",
+                  "location": "Finhaut",
+                  "duration": "4:40 h",
+                  "difficulty": "Difficult",
+                  "distance": "12.29 km",
+                  "image": "https://img.oastatic.com/img2/28071395/2048x2048/.jpg",
+                  "description": "This challenging geological hike in Finhaut leads you to the impressive Vieux-Emosson dam. The trail traverses rugged rock formations and varied terrain, offering fascinating insights into the region's geological history along with expansive views of the surrounding mountains and valleys."
+                },
+                {
+                  "name": "Discovering Binntal Landscape Park: Imfeld – Mässersee – Binn",
+                  "location": "Binn",
+                  "duration": "3:45 h",
+                  "difficulty": "Intermediate",
+                  "distance": "9.44 km",
+                  "image": "https://img.oastatic.com/img2/17157903/2048x2048/.jpg",
+                  "description": "Explore the unique Binntal Landscape Park on this intermediate trail that connects Imfeld, Mässersee, and the village of Binn. The route offers a mix of alpine meadows, forested paths, and striking rock formations, providing a rich tapestry of natural beauty and geological intrigue."
+                },
+                {
+                  "name": "Orny and Trient mountain huts",
+                  "location": "Champex-Lac",
+                  "duration": "5:40 h",
+                  "difficulty": "Difficult",
+                  "distance": "13.45 km",
+                  "image": "https://img.oastatic.com/img2/42603547/2048x2048/.jpg",
+                  "description": "This challenging hike in the Champex-Lac region leads you past the historic Orny and Trient mountain huts. The route offers steep ascents, rugged alpine terrain, and spectacular views of glacial valleys and towering peaks, making it a rewarding journey for experienced hikers."
+                },
+                {
+                  "name": "Chapel trail and Bodmeri irrigation channel in Visperterminen",
+                  "location": "Visperterminen",
+                  "duration": "2:45 h",
+                  "difficulty": "Intermediate",
+                  "distance": "9.33 km",
+                  "image": "https://img.oastatic.com/img2/26383947/2048x2048/.jpg",
+                  "description": "This intermediate trail in Visperterminen combines natural beauty with cultural heritage. Hikers follow a route that passes by a historic chapel and the innovative Bodmeri irrigation channel, offering insights into local engineering and a serene walk through scenic alpine landscapes."
+                },
+                {
+                  "name": "Across Vallon de They to the sources of the Vièze",
+                  "location": "Morgins",
+                  "duration": "5:23 h",
+                  "difficulty": "Intermediate",
+                  "distance": "16.77 km",
+                  "image": "https://img.oastatic.com/img2/25490526/2048x2048/.jpg",
+                  "description": "This extended intermediate hike in Morgins leads you from Vallon de They to the pristine sources of the Vièze. The trail navigates diverse terrain, including forested valleys and open meadows, and offers breathtaking views of cascading streams and rugged mountain backdrops."
+                },
+                {
+                  "name": "Tour de l'éboulement des Diablerets",
+                  "location": "Les Coteaux du Soleil",
+                  "duration": "2:05 h",
+                  "difficulty": "Easy",
+                  "distance": "6.61 km",
+                  "image": "https://img.oastatic.com/img2/40826730/2048x2048/.jpg",
+                  "description": "This easy, informative walk in Les Coteaux du Soleil explores the dramatic Diablerets landslide area. Hikers traverse gentle paths that offer unique insights into the region's geological events, surrounded by impressive views of rugged terrain and lush alpine flora."
+                },
+                {
+                  "name": "Gibidumpass",
+                  "location": "Visperterminen",
+                  "duration": "3:30 h",
+                  "difficulty": "Easy",
+                  "distance": "11.64 km",
+                  "image": "https://img.oastatic.com/img2/29561224/2048x2048/.jpg",
+                  "description": "The Gibidumpass trail in Visperterminen is an easy hike that rewards visitors with expansive views of the surrounding valleys and mountains. Its gentle terrain makes it accessible for families and casual hikers, providing a relaxing journey through alpine scenery."
+                },
+                {
+                  "name": "Les cols du Grand-St-Bernard",
+                  "location": "La Fouly",
+                  "duration": "4:55 h",
+                  "difficulty": "Difficult",
+                  "distance": "11.74 km",
+                  "image": "https://img.oastatic.com/img2/41004828/2048x2048/.jpg",
+                  "description": "This challenging route in La Fouly takes you across the high mountain passes of the Grand-St-Bernard region. Hikers face steep ascents and rugged terrain, with awe-inspiring views of snow-capped peaks and deep alpine valleys, making it a true test of endurance."
+                },
+                {
+                  "name": "Glacier trail and Lämmeren mountain refuge",
+                  "location": "Leukerbad",
+                  "duration": "3:15 h",
+                  "difficulty": "Intermediate",
+                  "distance": "9.34 km",
+                  "image": "https://img.oastatic.com/img2/57909150/2048x2048/.jpg",
+                  "description": "This intermediate hike in Leukerbad leads you along a glacier trail toward the Lämmeren mountain refuge. The route offers fascinating close-up views of glacial formations, rugged ice-carved landscapes, and panoramic vistas of the surrounding alpine environment."
+                },
+                {
+                  "name": "Moosalp Panoramaweg",
+                  "location": "Törbel",
+                  "duration": "2:05 h",
+                  "difficulty": "Easy",
+                  "distance": "6.37 km",
+                  "image": "https://img.oastatic.com/img2/56324781/2048x2048/.jpg",
+                  "description": "The Moosalp Panoramaweg in Törbel is an easy, scenic trail that offers sweeping panoramic views of lush alpine meadows and distant mountain peaks. This short hike is perfect for families and casual walkers seeking a quick yet memorable taste of alpine beauty."
+                },
+                {
+                  "name": "Gommer Höhenweg: Oberwald - Münster",
+                  "location": "Obergoms",
+                  "duration": "4:00 h",
+                  "difficulty": "Intermediate",
+                  "distance": "11.91 km",
+                  "image": "https://img.oastatic.com/img2/57868694/2048x2048/.jpg",
+                  "description": "This intermediate trail, the Gommer Höhenweg, connects Oberwald to Münster in Obergoms. The route traverses high-altitude meadows and rocky ridges while offering stunning views of the surrounding valleys and towering mountains, providing a quintessential alpine hiking experience."
+                },
+                {
+                  "name": "Sentier de Salanfe",
+                  "location": "Salvan/Les Marécottes",
+                  "duration": "4:20 h",
+                  "difficulty": "Difficult",
+                  "distance": "12.72 km",
+                  "image": "https://img.oastatic.com/img2/40879765/2048x2048/.jpg",
+                  "description": "This challenging Sentier de Salanfe in Salvan/Les Marécottes features steep ascents, rugged terrain, and dramatic alpine scenery. Hikers are treated to expansive views of deep valleys and craggy peaks, making it a demanding yet rewarding adventure."
+                },
+                {
+                  "name": "Tour du Grand Chavalard",
+                  "location": "Ovronnaz",
+                  "duration": "5:30 h",
+                  "difficulty": "Intermediate",
+                  "distance": "14.76 km",
+                  "image": "https://img.oastatic.com/img2/26797272/2048x2048/.jpg",
+                  "description": "This intermediate tour around the Grand Chavalard in Ovronnaz takes you through a diverse alpine landscape. The route combines gentle forest trails with open high-altitude panoramas, offering a blend of cultural insights and natural beauty, ideal for avid hikers."
+                },
+                {
+                  "name": "Roundtrip Roc Coupé – Bonavau - Champéry",
+                  "location": "Champéry",
+                  "duration": "4:15 h",
+                  "difficulty": "Intermediate",
+                  "distance": "12.09 km",
+                  "image": "https://img.oastatic.com/img2/27639049/2048x2048/.jpg",
+                  "description": "This intermediate roundtrip from Champéry leads you through the dramatic terrain of Roc Coupé and Bonavau. The trail offers a balanced mix of challenging ascents, rocky paths, and scenic viewpoints, delivering a comprehensive taste of alpine adventure in the region."
+                },
+                {
+                  "name": "Galerie Défago",
+                  "location": "Champéry",
+                  "duration": "2:40 h",
+                  "difficulty": "Easy",
+                  "distance": "8.69 km",
+                  "image": "https://img.oastatic.com/img2/46838024/2048x2048/.jpg",
+                  "description": "This easy and culturally rich trail in Champéry, known as Galerie Défago, offers a leisurely walk through historical sites and scenic landscapes. The route is marked by artistic installations and traditional architecture, providing a unique blend of heritage and natural beauty."
+                },
+                {
+                  "name": "Vérossaz plateau",
+                  "location": "St-Maurice",
+                  "duration": "3:00 h",
+                  "difficulty": "Easy",
+                  "distance": "9.02 km",
+                  "image": "https://img.oastatic.com/img2/46786064/2048x2048/.jpg",
+                  "description": "This gentle hike across the Vérossaz plateau in St-Maurice offers expansive views of rolling alpine meadows and distant peaks. The easy terrain makes it perfect for a relaxed exploration of the scenic high plateau, where nature and tranquility converge."
+                },
+                {
+                  "name": "Route des Diligences",
+                  "location": "Vernayaz",
+                  "duration": "5:00 h",
+                  "difficulty": "Intermediate",
+                  "distance": "13.00 km",
+                  "image": "https://img.oastatic.com/img2/28480369/2048x2048/.jpg",
+                  "description": "This intermediate route, known as the Route des Diligences, traces historic mail coach paths in Vernayaz. Hikers experience a journey steeped in local history, passing through quaint villages and picturesque landscapes that echo the region’s cultural past."
+                },
+                {
+                  "name": "From Saillon to Farinet footbridge",
+                  "location": "Saillon",
+                  "duration": "2:30 h",
+                  "difficulty": "Easy",
+                  "distance": "7.88 km",
+                  "image": "https://img.oastatic.com/img2/46849549/2048x2048/.jpg",
+                  "description": "This easy hike from Saillon to the Farinet footbridge offers a pleasant stroll through gentle terrain. The route features charming rural landscapes and picturesque views, making it a perfect short outing for families and casual walkers."
+                },
+                {
+                  "name": "The larches of Balavaux",
+                  "location": "Nendaz",
+                  "duration": "2:55 h",
+                  "difficulty": "Easy",
+                  "distance": "10.97 km",
+                  "image": "https://img.oastatic.com/img2/25480704/2048x2048/.jpg",
+                  "description": "This easy hike in Nendaz takes you through a forest of larches at Balavaux, offering a unique and aromatic journey. Hikers enjoy a peaceful walk amidst golden larch trees, with gentle slopes and panoramic views of the surrounding alpine landscape."
+                },
+                {
+                  "name": "The Vièze gorges trail",
+                  "location": "Monthey",
+                  "duration": "1:45 h",
+                  "difficulty": "Easy",
+                  "distance": "6.20 km",
+                  "image": "https://img.oastatic.com/img2/46937283/2048x2048/.jpg",
+                  "description": "This easy trail in Monthey guides you through the dramatic Vièze gorges, featuring narrow paths, cascading waterfalls, and towering rock walls. It offers a short yet immersive glimpse into the raw natural beauty of the alpine gorges."
+                },
+                {
+                  "name": "Lötschberger Südrampe",
+                  "location": "Eggerberg",
+                  "duration": "3:30 h",
+                  "difficulty": "Easy",
+                  "distance": "10.38 km",
+                  "image": "https://img.oastatic.com/img2/27764551/2048x2048/.jpg",
+                  "description": "This easy route in Eggerberg, known as Lötschberger Südrampe, offers a leisurely hike with gentle slopes and scenic vistas. The trail winds through charming countryside and provides wonderful panoramic views of the surrounding alpine landscape."
+                },
+                {
+                  "name": "La Voie des Erables",
+                  "location": "Isérables",
+                  "duration": "3:30 h",
+                  "difficulty": "Difficult",
+                  "distance": "9.70 km",
+                  "image": "https://img.oastatic.com/img2/46241085/2048x2048/.jpg",
+                  "description": "This challenging trail in Isérables, known as La Voie des Erables, demands a mix of endurance and technical skill. Hikers navigate steep, rugged terrain alongside scenic forest paths, with the route offering dramatic views of dense maple groves and rugged mountain backdrops."
+                }
+              ]
+              
+            
+          
+        
+      
+    
+
+
+
+
+
+
+
+

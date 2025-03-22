@@ -113,3 +113,23 @@ h2 {
   cursor: zoom-out;
   transform: scale(2);
 }
+.site-footer {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 2;
+}.heart {
+color: red;              /* Make the heart red (optional if your emoji is already red) */
+display: inline-block;   /* Needed so the transform applies cleanly */
+animation: pulse 1s infinite ease-in-out;
+transform-origin: center center; /* Scale from the center of the heart */
+}
+
+/* Keyframes for the pulsing animation */
+@keyframes pulse {
+0%   { transform: scale(1); }
+50%  { transform: scale(1.2); }
+100% { transform: scale(1); }
+}
