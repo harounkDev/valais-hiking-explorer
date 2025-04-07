@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+    background: linear-gradient(to bottom, rgb(73 135 110), rgba(0, 0, 0, 0.6));
     overflow: hidden;
 }
 
@@ -252,14 +252,43 @@ nav button:hover {
 }
 
 /* Responsive adjustments */
+
+@media (max-width: 1450px) {
+    .weather-panel {
+        position: relative;
+        width: 90%;
+        margin: 10px auto;
+        top: 0;
+        left:0;
+        
+    }
+
+    .hero-overlay {
+        top: 1%;
+        position: absolute;    
+        background-color: rgba(0, 0, 0, 0.3);
+        margin-top: 50px;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media (max-width: 768px) {
     .weather-panel {
         position: relative;
         width: 90%;
         margin: 10px auto;
+        top: 0;
+        left:0;
+
     }
 
     .hero-overlay {
+        top: 1%;
+        position: absolute;    
+        background-color: rgba(0, 0, 0, 0.3);
         margin-top: 50px;
     }
 
