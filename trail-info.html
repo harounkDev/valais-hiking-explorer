@@ -8,29 +8,30 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/all.css" />
 
-    <!-- Dedicated CSS for Trail Info Page -->
+    
     <link rel="stylesheet" href="css/trail-info.css" />
+    <link rel="icon" href="images/favicon.png" type="image/png">
   </head>
   <body>
     <main class="trail-info-page">
-      <!-- Hero Section -->
+     
       <header class="trail-hero">
-        <!-- Main Hero Image -->
+    
         <img id="trail-image" src="" alt="Trail Image" />
 
-        <!-- Title Overlay -->
+      
         <div class="hero-overlay">
           <h1 id="trail-name"></h1>
         </div>
       </header>
 
-      <!-- Weather Panel (now fixed, not absolute) -->
+   
       <div class="weather-panel">
         <section id="weather-info" class="weather-info"></section>
         <section id="forecast-container" class="forecast-container"></section>
       </div>
 
-      <!-- Trail Details (stats + optional description) -->
+    
       <section class="trail-details" id="trail-details">
         <div class="stats-container">
           <div class="stat-box">
@@ -63,25 +64,25 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCwtLNio1UsTTZyH39N2gbh_EfNL_FRDY"></script>
     <script>
       function initMap() {
-        // 1. Get the trail name from the page
+        
         var trailName = document.getElementById('trail-name').textContent.trim();
     
-        // 2. Create a geocoder instance
+        
         var geocoder = new google.maps.Geocoder();
     
-        // 3. Use the trail name as the 'address' in geocode()
+        
         geocoder.geocode({ address: trailName }, function(results, status) {
           if (status === 'OK') {
-            // 4. If geocoding is successful, get the coordinates
+            
             var coords = results[0].geometry.location;
     
-            // 5. Initialize the map at those coordinates
+            
             var map = new google.maps.Map(document.getElementById('map'), {
               zoom: 13,
               center: coords
             });
     
-            // 6. Place a marker at the geocoded location
+            
             new google.maps.Marker({
               map: map,
               position: coords,
@@ -89,12 +90,12 @@
             });
           } else {
             console.error("Geocode failed for the trail name:", trailName, "Status:", status);
-            // Optionally, you could show an error message or fallback location
+            
           }
         });
       }
     
-      // Initialize the map when the page loads
+      
       window.onload = initMap;
     </script>
     
