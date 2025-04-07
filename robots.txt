@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://valais-hiking-explorer.netlify.app/sitemap.xml
